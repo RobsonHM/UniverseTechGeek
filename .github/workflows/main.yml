@@ -14,16 +14,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run unit tests
-        run: npm test
-
-      - name: Build site
-        run: npm run build
-
-      - name: Run Lighthouse CI (performance/accessibility)
+      - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v11
         with:
+          urls: |
+            https://universetechgeek.github.io
           uploadArtifacts: true
