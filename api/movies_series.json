@@ -1,0 +1,75 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "rating": 7.6,
+      "genre": ["Fantasy", "Adventure"],
+      "duration": "152 min",
+      "director": "Chris Columbus",
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Richard Harris"
+      ],
+      "poster": "../assets/img/movies_series/HP2.jpg",
+      "synopsis": "Harry Potter is an orphaned boy who lives with his cruel aunt and uncle until he discovers on his eleventh birthday that he is actually a wizard. He is invited to attend Hogwarts School of Witchcraft and Wizardry, where he begins to learn magic and make lifelong friends, including Ron Weasley and Hermione Granger. At Hogwarts, Harry also learns the truth about his past and the dark wizard Lord Voldemort, who murdered his parents but mysteriously failed to kill him. During his first year, Harry becomes involved in a dangerous mystery surrounding the Philosopher's Stone, a magical object capable of granting immortality. With the help of his friends, he must prevent the stone from falling into the wrong hands."
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "rating": 7.4,
+      "genre": ["Fantasy", "Adventure"],
+      "duration": "161 min",
+      "director": "Chris Columbus",
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Tom Felton"
+      ],
+      "poster": "../assets/img/movies_series/HP2.jpg",
+      "synopsis": "During his second year at Hogwarts, Harry Potter faces new dangers when a mysterious force begins petrifying students. Rumors spread about the legendary Chamber of Secrets, a hidden chamber said to contain a monster that can purge the school of those deemed unworthy. As Harry, Ron, and Hermione investigate the mystery, they uncover clues tied to the past of Tom Riddle and the dark legacy of Voldemort. Harry ultimately confronts the monstrous basilisk hidden within the chamber and stops a sinister plan that threatens the entire school."
+    }
+  ],
+
+  "series": [
+    {
+      "id": 101,
+      "title": "Stranger Things",
+      "year": 2016,
+      "seasons": 4,
+      "rating": 8.7,
+      "genre": ["Sci-Fi", "Horror", "Drama"],
+      "creator": "The Duffer Brothers",
+      "cast": [
+        "Millie Bobby Brown",
+        "Finn Wolfhard",
+        "David Harbour",
+        "Winona Ryder"
+      ],
+      "poster": "img/series/stranger_things.jpg",
+      "synopsis": "Stranger Things takes place in the small town of Hawkins, Indiana during the 1980s. The story begins when a young boy named Will Byers mysteriously disappears. As his friends, family, and the local police chief search for answers, they become entangled in a mystery involving secret government experiments, supernatural forces, and a mysterious girl with powerful telekinetic abilities known as Eleven. The group soon discovers the existence of the Upside Down, a dark parallel dimension that threatens their world."
+    },
+    {
+      "id": 102,
+      "title": "Game of Thrones",
+      "year": 2011,
+      "seasons": 8,
+      "rating": 9.2,
+      "genre": ["Fantasy", "Drama"],
+      "creator": "David Benioff & D. B. Weiss",
+      "cast": [
+        "Emilia Clarke",
+        "Kit Harington",
+        "Peter Dinklage",
+        "Lena Headey"
+      ],
+      "poster": "img/series/game_of_thrones.jpg",
+      "synopsis": "Game of Thrones is an epic fantasy drama set in the fictional continents of Westeros and Essos. The story follows several noble families competing for control of the Iron Throne and the Seven Kingdoms. Political intrigue, betrayal, and war shape the fate of the realm while an ancient supernatural threat rises in the far north. As alliances shift and battles rage, characters must navigate power struggles, personal ambition, and survival in a brutal and unpredictable world."
+    }
+  ]
+}

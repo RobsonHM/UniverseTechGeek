@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Hub - Filmes & Séries</title>
+    <!-- Importação do seu CSS personalizado -->
+    <link rel="stylesheet" href="../assets/css/homecustom.css">
+
+</head>
+<body class="antialiased">
+
+        <header class="border-b border-gray-200 py-6">
+            <div class="container mx-auto px-4 h-16 flex items-center justify-between ">
+                <a href="../home.html" class="text-2xl font-extrabold font-bold button-transparent uppercase">universe Tech<span class="text-blue-600">Geek</span></a>
+                
+                <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
+                    <a href="books.html" class="text-sm font-bold button-transparent ">Books</a>
+                    <a href="games.html" class="text-sm font-bold button-transparent ">Games</a>
+                    <a href="movies_series.html" class="text-sm font-bold button-transparent ">Movies & TV shows</a>
+                    <a href="music.html" class="text-sm font-bold button-transparent ">Music</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <div class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs">U</div>
+                        <button class="md:hidden p-2">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <!-- Navegação e Alternador de Abas -->
+        <div class="flex-row-between mb-8">
+            <a href="home.html" class="text-blue-600 hover:underline font-bold flex items-center">
+                <span style="margin-right: 8px;">&larr;</span> Início
+            </a>
+            
+            <div class="tab-container">
+                <button id="tab-movies" onclick="switchTab('movies')" class="tab-btn active">Filmes</button>
+                <button id="tab-series" onclick="switchTab('series')" class="tab-btn">Séries</button>
+            </div>
+        </div>
+
+        <!-- Busca e Filtros -->
+        <div class="search-filter-group">
+            <div class="search-input-wrapper">
+                <input type="text" placeholder="Pesquisar no catálogo..." class="outline-none">
+            </div>
+            <div style="min-width: 200px;">
+                <select class="outline-none cursor-pointer">
+                    <option>Todos os Géneros</option>
+                    <option>Ação</option>
+                    <option>Drama</option>
+                    <option>Terror</option>
+                    <option>Sci-Fi</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- SECÇÃO DE FILMES -->
+        <div id="section-movies" class="content-section active">
+            <div class="section-title-wrapper">
+                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Cinema <span class="text-blue-600">Total</span></h2>
+            </div>
+            
+            <div class="media-grid">
+               <div class="media-grid" id="movies-grid"></div>
+            </div>
+        </div>
+
+        <!-- SECÇÃO DE SÉRIES -->
+        <div id="section-series" class="content-section">
+            <div class="section-title-wrapper">
+                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Séries <span class="text-blue-600">Premium</span></h2>
+            </div>
+
+            <div class="media-grid">
+                <div class="media-grid" id="series-grid"></div>
+            </div>
+        </div>
+
+        <!-- Paginação -->
+        <nav class="py-12 flex justify-center items-center space-x-4">
+            <div class="w-10 h-10 wireframe-box rounded border-black bg-black text-white font-bold cursor-default">1</div>
+            <div class="w-10 h-10 wireframe-box rounded cursor-pointer">2</div>
+            <div class="w-10 h-10 wireframe-box rounded cursor-pointer">3</div>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-500 text-xs font-mono uppercase tracking-widest">
+                Media Hub // Catálogo Unificado // 2024
+            </p>
+        </div>
+    </footer>
+
+    <script src="../JS/movies_series.js"></script>
+
+</body>
+</html>
