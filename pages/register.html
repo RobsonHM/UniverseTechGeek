@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Universe TechGeek</title>
+    <link rel="stylesheet" href="../assets/css/homecustom.css">
+
+</head>
+<body>
+
+    <div class="register-container">
+        <div class="register-header">
+            <h2>UNIVERSE <span>TECHGEEK</span></h2>
+            <p style="color: var(--gray-500); font-size: 13px; margin-top: 5px;">Crie sua conta de usuário</p>
+        </div>
+
+              <div class="msg msg-{{ category }}">
+
+              </div>
+
+
+        <form id="formCadastro">
+            <div class="form-group">
+                <label for="username">Nickname</label>
+                <input type="text" id="username" placeholder="Ex: geek_master" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <button onclick="NewUser()" type="button" class="btn-register">Finalizar Cadastro</button>
+        </form>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="login.html" style="color: var(--gray-500); font-size: 12px; text-decoration: none;">
+                Já tem uma conta? <span style="color: var(--red-destaque); font-weight: bold;">Entrar</span>
+            </a>
+        </div>
+        
+        <div style="text-align: center; margin-top: 15px;">
+            <a href="../home.html" style="color: var(--gray-500); font-size: 10px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
+                &larr; Voltar ao Início
+            </a>
+        </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/sql-wasm.js"></script>
+        <script src="../JS/database.js"></script>
+        <script src="../JS/auth.js"></script>
+        <script src="../JS/register.js"></script>
+   
+
+</body>
+</html>

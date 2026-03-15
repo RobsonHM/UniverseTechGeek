@@ -566,3 +566,89 @@ input[type="text"], select {
    border-radius: 8px;
    font-size: 14px;
 }
+
+
+.register-container {
+   width: 100%;
+   max-width: 400px;
+   padding: 40px;
+   background: #111; /* Cor escura para o container */
+   border: 1px solid #333;
+   border-radius: 16px;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+   margin: 80px auto; /* Centraliza na página */
+}
+
+.register-header {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.register-header h2 {
+   font-size: 24px;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+   margin: 0;
+}
+
+.register-header span {
+   color: #ff0000; /* Cor de destaque */
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+.form-group label {
+   display: block;
+   font-size: 12px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #888;
+   margin-bottom: 8px;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 12px 16px;
+   background: #000;
+   border: 1px solid #444;
+   border-radius: 8px;
+   color: white;
+   outline: none;
+   transition: 0.3s;
+   box-sizing: border-box;
+}
+
+.form-group input:focus {
+   border-color: #ff0000;
+}
+
+.btn-register {
+   width: 100%;
+   padding: 14px;
+   background: #ff0000;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   font-weight: 800;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: 0.3s;
+   margin-top: 10px;
+}
+
+.btn-register:hover {
+   background: #cc0000;
+   transform: translateY(-2px);
+}
+
+.msg {
+   padding: 12px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   font-size: 13px;
+   text-align: center;
+   font-weight: bold;
+}
