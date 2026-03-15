@@ -37,6 +37,8 @@ async function initDatabase() {
         CREATE TABLE IF NOT EXISTS reviews (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             usuario_id INTEGER,
+            item_id TEXT,     
+            categoria TEXT,  
             rating INTEGER,
             comment TEXT,
             author TEXT,

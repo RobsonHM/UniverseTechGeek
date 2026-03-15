@@ -2,6 +2,23 @@
 let selectedRating = null;
 // Não declaramos "let db" aqui para não conflitar com o window.db do database.js
 
+// Pega os dados da URL atual
+const urlPath = window.location.pathname; // Ex: /pages/gamesinfo.html
+const params = new URLSearchParams(window.location.search);
+
+// 1. Identifica a Categoria baseada no nome do arquivo HTML
+let currentCategory = "geral";
+if (urlPath.includes("booksinfo")) currentCategory = "livros";
+if (urlPath.includes("gamesinfo")) currentCategory = "jogos";
+if (urlPath.includes("movies_seriesinfo")) currentCategory = "filmes";
+
+// 2. Identifica o ID do item
+const currentItemId = params.get("id"); // Pega o '1' do ?id=1
+
+console.log(`Página atual: Categoria = ${currentCategory}, ID = ${currentItemId}`);
+
+
+
 // 1. FUNÇÃO PRINCIPAL: Carrega o HTML e depois os dados
 async function inicializarSistemaCompleto() {
     console.log("Iniciando carregamento do sistema...");
@@ -32,27 +49,28 @@ async function inicializarSistemaCompleto() {
 }
 
 function carregarReviews() {
-    if (!window.db) return;
+    if (!window.db || !currentItemId) return;
 
     try {
-        const res = window.db.exec("SELECT rating, comment, author FROM reviews ORDER BY id DESC");
+        // FILTRO: Só busca reviews que batem com o ID e a Categoria da página atual
+        const res = window.db.exec(
+            "SELECT rating, comment, author FROM reviews WHERE item_id = ? AND categoria = ? ORDER BY id DESC",
+            [currentItemId, currentCategory]
+        );
+
         const container = document.getElementById("reviews");
+        if (!container) return;
 
-        if (!container) {
-            console.warn("Aguardando container de reviews...");
-            return;
-        }
+        container.innerHTML = ""; 
 
-        container.innerHTML = ""; // Limpa o container
-
-        if (res.length > 0) {
+        if (res.length > 0 && res[0].values) {
             res[0].values.forEach(row => {
                 adicionarReviewNaTela(row[0], row[1], row[2]);
             });
-            console.log("Reviews renderizadas!");
-        }
+            console.log(`Carregadas ${res[0].values.length} reviews para este item.`);
+        } 
     } catch (e) {
-        console.log("Nenhuma review encontrada no banco.");
+        console.warn("Tabela de reviews ainda não filtrável ou vazia.");
     }
 }
 
@@ -71,30 +89,45 @@ function adicionarReviewNaTela(nota, texto, user) {
 }
 
 function submitReview() {
+    // 1. Verificar login
     const userLoggedIn = sessionStorage.getItem("userLoggedIn");
     if (!userLoggedIn) {
         alert("Faça login para comentar.");
+        window.location.href = "login.html";
         return;
     }
 
-    const text = document.getElementById("reviewText").value.trim();
+    // 2. Capturar os valores dos inputs (AGORA A VARIÁVEL 'text' NASCE AQUI)
+    const reviewInput = document.getElementById("reviewText");
+    const text = reviewInput ? reviewInput.value.trim() : "";
+
+    // 3. Validações de preenchimento
     if (selectedRating === null || text === "") {
         alert("Selecione uma nota e escreva algo.");
         return;
     }
 
-    // Adiciona na tela e salva no banco
-    adicionarReviewNaTela(selectedRating, text, userLoggedIn);
-
+    // 4. Salvar no Banco (Uma única vez, com todas as colunas)
     if (window.db) {
-        window.db.run("INSERT INTO reviews (rating, comment, author) VALUES (?, ?, ?)", [selectedRating, text, userLoggedIn]);
-        window.db.persist();
+        try {
+            window.db.run(
+                "INSERT INTO reviews (item_id, categoria, rating, comment, author) VALUES (?, ?, ?, ?, ?)", 
+                [currentItemId, currentCategory, selectedRating, text, userLoggedIn]
+            );
+            window.db.persist();
+            console.log("Review salva com sucesso!");
+        } catch (e) {
+            console.error("Erro ao salvar no banco. Talvez precise limpar o localStorage?", e);
+        }
     }
 
-    // Reset
+    // 5. Adicionar visualmente na tela
+    adicionarReviewNaTela(selectedRating, text, userLoggedIn);
+
+    // 6. Resetar o formulário
     selectedRating = null;
     document.querySelectorAll(".rating-btn").forEach(b => b.classList.remove("active"));
-    document.getElementById("reviewText").value = "";
+    if (reviewInput) reviewInput.value = "";
 }
 
 function inicializarBotoes() {
