@@ -23,10 +23,10 @@
             </nav>
 
             <div class="flex items-center space-x-4">
-                <div class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs">U</div>
-                    <button class="md:hidden p-2">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                    </button>
+                <div id="switch-in-out">
+                    <a id="nav-login" href="pages/register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
+                    
+                    <button id="nav-logout" onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Logout</button>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
             <article class="lg:col-span-8 space-y-6  hover-card cursor-pointer group">
                 <a href="gamesinfo.html?id=11" class="aspect-video rounded-2xl w-full wireframe-box">
                     <div class="textover text-white  absolute bottom-0 left-0 p-6">
-                        Próxima Geração de Consolas: Tudo o que sabemos sobre o novo hardware da indústria.</div><img src="../assets/img/onimusha-1.jpg" alt="Notícia em Destaque" class="w-full h-full object-cover rounded-2xl"/>
+                        Próxima Geração de Consolas: Tudo o que sabemos sobre o novo hardware da indústria.</div><img src="../assets/img/games/onimusha-1.jpg" alt="Notícia em Destaque" class="w-full h-full object-cover rounded-2xl"/>
                 </a>
                 <div class="space-y-4">
                     <span class="news-badge">Especial E3 2026</span>
@@ -70,7 +70,7 @@
                     <!-- Item lateral 1 -->
                     <div class="flex gap-4 hover-card cursor-pointer group">
                         <a href="gamesinfo.html?id=1" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
-                            <img src="../assets/img/cyberpunk.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                            <img src="../assets/img/games/cyberpunk.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
                         </a>
                         <div class="space-y-1">
                             <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">Cyberpunk 2077: Novo conteúdo para 2026.</h5>
@@ -81,7 +81,7 @@
                     <!-- Item lateral 2 -->
                     <div class="flex gap-4 group cursor-pointer">
                         <a href="gamesinfo.html?id=2" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
-                            <img src="../assets/img/eldenring.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                            <img src="../assets/img/games/eldenring.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
                         </a>
                         <div class="space-y-1">
                             <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">elden ring.</h5>
@@ -92,7 +92,17 @@
                     <!-- Item lateral 3 -->
                     <div class="flex gap-4 group cursor-pointer">
                         <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
-                            <img src="../assets/img/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
                         </a>
                         <div class="space-y-1">
                             <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
@@ -112,7 +122,7 @@
                 <!-- Card Notícia 1 -->
                 <div class="hover-card cursor-pointer group">
                     <a href="gamesinfo.html?id=4" class="wireframe-box aspect-video rounded-lg mb-4">
-                        <img src="../assets/img/starfield-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
+                        <img src="../assets/img/games/starfield-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
                     </a>
                     <span class="text-blue-600 text-xs font-bold uppercase">starfield</span>
                     <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Jogos de telemóvel que estão a dominar o mercado em 2026.</h5>
@@ -121,7 +131,7 @@
                 <!-- Card Notícia 2 -->
                 <div class="hover-card cursor-pointer group">
                     <a href="gamesinfo.html?id=5" class="wireframe-box aspect-video rounded-lg mb-4">
-                        <img src="../assets/img/gow-ragnarok-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
+                        <img src="../assets/img/games/gow-ragnarok-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
                     </a>
                     <span class="text-blue-600 text-xs font-bold uppercase">gow</span>
                     <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Nova placa gráfica da NVIDIA promete 1000 FPS em CS.</h5>
@@ -130,7 +140,7 @@
                 <!-- Card Notícia 3 -->
                 <div class="hover-card cursor-pointer group">
                     <a href="gamesinfo.html?id=6" class="wireframe-box aspect-video rounded-lg mb-4">
-                        <img src="../assets/img/silksong-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
+                        <img src="../assets/img/games/silksong-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
                     </a>
                     <span class="text-blue-600 text-xs font-bold uppercase">hollow knight</span>
                     <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Desenvolvedor solitário cria RPG de 100 horas em 2 anos.</h5>
@@ -139,7 +149,7 @@
                 <!-- Card Notícia 4 -->
                 <div class="hover-card cursor-pointer group">
                     <a href="gamesinfo.html?id=7" class="wireframe-box aspect-video rounded-lg mb-4">
-                        <img src="../assets/img/yotei-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
+                        <img src="../assets/img/games/yotei-1.jpg" alt="" class="rounded-lg w-full h-full object-cover">
                     </a>
                     <span class="text-blue-600 text-xs font-bold uppercase">ghost yotei</span>
                     <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Comic Con confirma presença de grandes estúdios de videojogos.</h5>
@@ -156,6 +166,6 @@
             <p>ahhhhhhh ze da</p>
         </div>
     </footer>
-
+    <script src="../JS/auth.js"></script>
 </body>
 </html>

@@ -10,10 +10,10 @@
     "lancamento": "December 10, 2020",
     "plataformas": "PC, PS5, XSX",
     "screenshots": [
-      "../assets/img/cyberpunk-1.jpg",
-      "../assets/img/cyberpunk-2.jpg",
-      "../assets/img/cyberpunk-3.jpg",
-      "../assets/img/cyberpunk-4.jpg"
+      "../assets/img/games/cyberpunk-1.jpg",
+      "../assets/img/games/cyberpunk-2.jpg",
+      "../assets/img/games/cyberpunk-3.jpg",
+      "../assets/img/games/cyberpunk-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Windows 10", "cpu": "i5-3570K", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "70 GB SSD" },
@@ -31,10 +31,10 @@
     "lancamento": "June 21, 2024",
     "plataformas": "PC, PS4, PS5, XSX",
     "screenshots": [
-      "../assets/img/elden-ring-1.jpg",
-      "../assets/img/elden-ring-2.jpg",
-      "../assets/img/elden-ring-3.jpg",
-      "../assets/img/elden-ring-4.jpg"
+      "../assets/img/games/elden-ring-1.jpg",
+      "../assets/img/games/elden-ring-2.jpg",
+      "../assets/img/games/elden-ring-3.jpg",
+      "../assets/img/games/elden-ring-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Windows 10", "cpu": "i5-8400", "ram": "12 GB", "gpu": "GTX 1060 3GB", "armazenamento": "60 GB SSD" },
@@ -52,10 +52,10 @@
     "lancamento": "February 18, 2022",
     "plataformas": "PC, PS4, PS5",
     "screenshots": [
-      "../assets/img/horizon-1.jpg",
-      "../assets/img/horizon-2.jpg",
-      "../assets/img/horizon-3.jpg",
-      "../assets/img/horizon-4.jpg"
+      "../assets/img/games/horizon-1.jpg",
+      "../assets/img/games/horizon-2.jpg",
+      "../assets/img/games/horizon-3.jpg",
+      "../assets/img/games/horizon-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-6600K", "ram": "16 GB", "gpu": "GTX 1650", "armazenamento": "100 GB" },
@@ -73,10 +73,10 @@
     "lancamento": "September 6, 2023",
     "plataformas": "PC, XSX",
     "screenshots": [
-      "../assets/img/starfield-1.jpg",
-      "../assets/img/starfield-2.jpg",
-      "../assets/img/starfield-3.jpg",
-      "../assets/img/starfield-4.jpg"
+      "../assets/img/games/starfield-1.jpg",
+      "../assets/img/games/starfield-2.jpg",
+      "../assets/img/games/starfield-3.jpg",
+      "../assets/img/games/starfield-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "Ryzen 5 2600X", "ram": "16 GB", "gpu": "GTX 1070 Ti", "armazenamento": "125 GB SSD" },
@@ -94,10 +94,10 @@
     "lancamento": "November 9, 2022",
     "plataformas": "PC, PS4, PS5",
     "screenshots": [
-      "../assets/img/gow-ragnarok-1.jpg",
-      "../assets/img/gow-ragnarok-2.jpg",
-      "../assets/img/gow-ragnarok-3.jpg",
-      "../assets/img/gow-ragnarok-4.jpg"
+      "../assets/img/games/gow-ragnarok-1.jpg",
+      "../assets/img/games/gow-ragnarok-2.jpg",
+      "../assets/img/games/gow-ragnarok-3.jpg",
+      "../assets/img/games/gow-ragnarok-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-4670K", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "190 GB SSD" },
@@ -115,10 +115,10 @@
     "lancamento": "TBA 2026",
     "plataformas": "PC, Switch, Xbox, PS5",
     "screenshots": [
-      "../assets/img/silksong-1.jpg",
-      "../assets/img/silksong-2.jpg",
-      "../assets/img/silksong-3.jpg",
-      "../assets/img/silksong-4.jpg"
+      "../assets/img/games/silksong-1.jpg",
+      "../assets/img/games/silksong-2.jpg",
+      "../assets/img/games/silksong-3.jpg",
+      "../assets/img/games/silksong-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i3", "ram": "4 GB", "gpu": "GTX 560", "armazenamento": "9 GB" },
@@ -136,10 +136,10 @@
     "lancamento": "2025",
     "plataformas": "PS5",
     "screenshots": [
-      "../assets/img/yotei-1.jpg",
-      "../assets/img/yotei-2.jpg",
-      "../assets/img/yotei-3.jpg",
-      "../assets/img/yotei-4.jpg"
+      "../assets/img/games/yotei-1.jpg",
+      "../assets/img/games/yotei-2.jpg",
+      "../assets/img/games/yotei-3.jpg",
+      "../assets/img/games/yotei-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "N/A", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" },
@@ -157,10 +157,10 @@
     "lancamento": "March 20, 2020",
     "plataformas": "PC, PS4, PS5, Xbox",
     "screenshots": [
-      "../assets/img/doom-1.jpg",
-      "../assets/img/doom-2.jpg",
-      "../assets/img/doom-3.jpg",
-      "../assets/img/doom-4.jpg"
+      "../assets/img/games/doom-1.jpg",
+      "../assets/img/games/doom-2.jpg",
+      "../assets/img/games/doom-3.jpg",
+      "../assets/img/games/doom-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "Ryzen 3", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "50 GB" },
@@ -178,10 +178,10 @@
     "lancamento": "August 3, 2023",
     "plataformas": "PC, PS5, XSX",
     "screenshots": [
-      "../assets/img/bg3-1.jpg",
-      "../assets/img/bg3-2.jpg",
-      "../assets/img/bg3-3.jpg",
-      "../assets/img/bg3-4.jpg"
+      "../assets/img/games/bg3-1.jpg",
+      "../assets/img/games/bg3-2.jpg",
+      "../assets/img/games/bg3-3.jpg",
+      "../assets/img/games/bg3-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-4690", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "150 GB SSD" },
@@ -199,10 +199,10 @@
     "lancamento": "January 20, 2026",
     "plataformas": "PC, PS5, XSX",
     "screenshots": [
-      "../assets/img/re9.jpg",
-      "../assets/img/re9-2.png",
-      "../assets/img/re9-3.jpg",
-      "../assets/img/re9-4.jpg"
+      "../assets/img/games/re9.jpg",
+      "../assets/img/games/re9-2.png",
+      "../assets/img/games/re9-3.jpg",
+      "../assets/img/games/re9-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-8400", "ram": "8 GB", "gpu": "RTX 2060", "armazenamento": "65 GB SSD" },
@@ -220,10 +220,10 @@
     "lancamento": "January 15, 2019",
     "plataformas": "PC, PS4, Xbox One, Switch",
     "screenshots": [
-      "../assets/img/onimusha-1.jpg",
-      "../assets/img/onimusha-2.jpg",
-      "../assets/img/onimusha-3.jpg",
-      "../assets/img/onimusha-4.jpg"
+      "../assets/img/games/onimusha-1.jpg",
+      "../assets/img/games/onimusha-2.jpg",
+      "../assets/img/games/onimusha-3.jpg",
+      "../assets/img/games/onimusha-4.jpg"
       ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-4460", "ram": "4 GB", "gpu": "GTX 760", "armazenamento": "12 GB" },
@@ -241,10 +241,10 @@
     "lancamento": "March 12, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
     "screenshots": [
-      "../assets/img/fatalframe-1.jpg",
-      "../assets/img/fatalframe-2.jpg",
-      "../assets/img/fatalframe-3.jpg",
-      "../assets/img/fatalframe-4.jpg"
+      "../assets/img/games/fatalframe-1.jpg",
+      "../assets/img/games/fatalframe-2.jpg",
+      "../assets/img/games/fatalframe-3.jpg",
+      "../assets/img/games/fatalframe-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 11", "cpu": "i5-8400", "ram": "16 GB", "gpu": "GTX 1050 Ti", "armazenamento": "30 GB" },
@@ -262,10 +262,10 @@
     "lancamento": "March 19, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, macOS",
     "screenshots": [
-      "../assets/img/crimson-1.jpg",
-      "../assets/img/crimson-2.jpg",
-      "../assets/img/crimson-3.jpg",
-      "../assets/img/crimson-4.jpg"
+      "../assets/img/games/crimson-1.jpg",
+      "../assets/img/games/crimson-2.jpg",
+      "../assets/img/games/crimson-3.jpg",
+      "../assets/img/games/crimson-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-8500", "ram": "16 GB", "gpu": "GTX 1060", "armazenamento": "135 GB" },
@@ -283,10 +283,10 @@
     "lancamento": "April 24, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
     "screenshots": [
-      "../assets/img/pragmata-1.jpg",
-      "../assets/img/pragmata-2.jpg",
-      "../assets/img/pragmata-3.jpg",
-      "../assets/img/pragmata-4.jpg"
+      "../assets/img/games/pragmata-1.jpg",
+      "../assets/img/games/pragmata-2.jpg",
+      "../assets/img/games/pragmata-3.jpg",
+      "../assets/img/games/pragmata-4.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-10400", "ram": "16 GB", "gpu": "GTX 1660 Super", "armazenamento": "60 GB" },

@@ -15,13 +15,16 @@
             <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
                 <a href="books.html" class="text-sm font-bold button-transparent ">Books</a>
                 <a href="games.html" class="text-sm font-bold button-transparent ">Games</a>
-                <a href="movies.html" class="text-sm font-bold button-transparent ">Movies</a>
+                <a href="movies_series.html" class="text-sm font-bold button-transparent ">Movies & TV shows</a>
                 <a href="music.html" class="text-sm font-bold button-transparent ">Music</a>
-                <a href="tv.html" class="text-sm font-bold button-transparent ">TV Shows</a>
             </nav>
 
             <div class="flex items-center space-x-4">
-                <div class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs flex items-center justify-center">U</div>
+                <div id="switch-in-out">
+                    <a id="nav-login" href="register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
+                    
+                    <button id="nav-logout" onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Logout</button>
+                </div>
             </div>
         </div>
     </header>
@@ -63,9 +66,6 @@
                         <span class="text-gray-500">Elenco</span>
                         <span class="font-bold" id="info-cast">-</span>
                     </div>
-                    <div class="info-grid-item col-span-1 md:col-span-2">
-                        <a href="#" id="trailer-link" class="text-blue-600 hover:underline font-bold">Assistir Trailer</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -83,5 +83,6 @@
     <script src="../JS/database.js"></script>
     <script src="../JS/movies_series.js"></script>
     <script src="../JS/review.js"></script>
+    <script src="../JS/auth.js"></script>
 </body>
 </html>

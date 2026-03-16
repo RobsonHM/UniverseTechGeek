@@ -69,3 +69,28 @@ function logout() {
     // 2. Redireciona para a home ou login
     window.location.href = "home.html"; 
 }
+
+
+function gerenciarMenuUsuario() {
+    const userLoggedIn = sessionStorage.getItem("userLoggedIn");
+    const loginLink = document.getElementById("nav-login");
+    const logoutBtn = document.getElementById("nav-logout");
+
+    if (!loginLink || !logoutBtn) return;
+
+    if (userLoggedIn) {
+        // USUÁRIO LOGADO
+        loginLink.style.display = "none";  // Esconde o "U"
+        logoutBtn.style.display = "block"; // Mostra o "Logout"
+        
+        // Opcional: Mudar a letra "U" pelo nome do usuário
+        loginLink.innerText = userLoggedIn.charAt(0).toUpperCase();
+    } else {
+        // USUÁRIO DESLOGADO
+        loginLink.style.display = "flex";  // Mostra o "U"
+        logoutBtn.style.display = "none";  // Esconde o "Logout"
+    }
+}
+
+// Chamar a função assim que o DOM carregar
+document.addEventListener("DOMContentLoaded", gerenciarMenuUsuario);

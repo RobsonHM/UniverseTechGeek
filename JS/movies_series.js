@@ -39,10 +39,9 @@ function createMovieCard(movie) {
         <a href="movies_seriesinfo.html?id=${movie.id}&type=movie">
             <div class="aspect-[2/3] wireframe-box rounded-lg mb-4 relative">
                 <img src="${movie.poster}" alt="${movie.title}" class="w-full h-full object-cover rounded-lg">
-                <div class="textover text-xs">⭐ ${movie.rating}</div>
             </div>
-            <div class="text-sm font-bold">${movie.title}</div>
-            <div class="text-xs opacity-70">${movie.year}</div>
+            <div class="text-sm font-semibold text-white leading-tight ">${movie.title}</div>
+            <div class="text-sm font-semibold text-white leading-tight">⭐ ${movie.rating}</div>
         </a>
     </div>`;
 }
@@ -53,10 +52,10 @@ function createSeriesCard(serie) {
         <a href="movies_seriesinfo.html?id=${serie.id}&type=series">
             <div class="aspect-[2/3] wireframe-box rounded-lg mb-4 relative">
                 <img src="${serie.poster}" alt="${serie.title}" class="w-full h-full object-cover rounded-lg">
-                <div class="textover text-xs">${serie.seasons || 'TV'}</div>
+                
             </div>
-            <div class="text-sm font-bold">${serie.title}</div>
-            <div class="text-xs opacity-70">${serie.year}</div>
+            <div class="text-sm font-semibold text-white leading-tight ">${serie.title}</div>    
+            <div class="text-sm font-semibold text-white leading-tight">Seasons: ${serie.seasons || 'TV'}</div>
         </a>
     </div>`;
 }
@@ -82,7 +81,7 @@ function renderMediaDetails(item) {
 
     // Rating (Estrela + Nota)
     const ratingElem = document.getElementById("media-rating");
-    if (ratingElem) ratingElem.innerText = `⭐ ${item.rating}`;
+    if (ratingElem) ratingElem.innerText = `${item.rating}`;
 
     // Sinopse
     const synopsisElem = document.getElementById("media-synopsis");

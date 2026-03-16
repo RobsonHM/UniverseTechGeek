@@ -17,14 +17,16 @@
             <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
                 <a href="#books" class="text-sm font-bold button-transparent ">Books</a>
                 <a href="#games" class="text-sm font-bold button-transparent ">Games</a>
-                <a href="#movies" class="text-sm font-bold button-transparent ">Movies</a>
+                <a href="#movies" class="text-sm font-bold button-transparent ">Movies & TV shows</a>
                 <a href="#music" class="text-sm font-bold button-transparent ">Music</a>
-                <a href="#tv" class="text-sm font-bold button-transparent ">TV Shows</a>
             </nav>
 
             <div class="flex items-center space-x-4">
-                <a href="pages/register.html" class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs">U</a>
-                <button onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent" >Logout</button>
+                <div id="switch-in-out">
+                    <a id="nav-login" href="pages/register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
+                    
+                    <button id="nav-logout" onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Logout</button>
+                </div>
             </div>
         </div>
     </header>
@@ -38,7 +40,7 @@
                     <p class="text-xl text-gray-600 mb-8">O melhor guia para entretenimento. Críticas, lançamentos e tendências em um só lugar.</p>
                 </div>
                 <a href="pages/games.html" class=" rounded-2xl shadow-sm hover-card cursor-pointer group">
-                    <img src="assets/img/onimusha-1.jpg" class="w-full h-full wireframe-box object-cover rounded-2xl"/>
+                    <img src="assets/img/games/onimusha-1.jpg" class="w-full h-full wireframe-box object-cover rounded-2xl"/>
                 </a>
             </div>
         </div>
@@ -60,7 +62,7 @@
                 <!-- Book Item -->
                 <a href="pages/booksinfo.html?id=1" class="space-y-3 max-w-[200px] hover-card cursor-pointer group">
                     <div class="aspect-[2/3] rounded-md shadow-sm overflow-hidden border border-gray-100 wireframe-box">
-                        <img src="../assets/img/HP1.jpg" alt="Harry Potter and the Philosopher's Stone" class="w-full h-full object-cover rounded"/>
+                        <img src="../assets/img/books/HP1.jpg" alt="Harry Potter and the Philosopher's Stone" class="w-full h-full object-cover rounded"/>
                     </div>
                     <h3 class="text-sm font-semibold text-white leading-tight ">Harry Potter and the Philosopher's Stone</h3>
                     <div class="flex items-center gap-1">
@@ -71,7 +73,7 @@
 
                 <a href="pages/booksinfo.html?id=2" class="space-y-3 max-w-[200px] hover-card cursor-pointer group">
                     <div class="aspect-[2/3] rounded-md shadow-sm overflow-hidden border border-gray-100 wireframe-box">
-                        <img src="../assets/img/TheSilentForest.jpg" alt="The Silent Forest" class="w-full h-full object-cover rounded"/>
+                        <img src="../assets/img/books/TheSilentForest.jpg" alt="The Silent Forest" class="w-full h-full object-cover rounded"/>
                     </div>
                     <h3 class="text-sm font-semibold text-white leading-tight">The Silent Forest</h3>
                     <div class="flex items-center gap-1">
@@ -82,7 +84,7 @@
 
                 <a href="pages/booksinfo.html?id=3" class="space-y-3 max-w-[200px] hover-card cursor-pointer group">
                     <div class="aspect-[2/3] rounded-md shadow-sm overflow-hidden border border-gray-100 wireframe-box">
-                        <img src="../assets/img/BeyondtheHorizon.jpg" alt="Beyond the Horizon" class="w-full h-full object-cover rounded"/>
+                        <img src="../assets/img/books/BeyondtheHorizon.jpg" alt="Beyond the Horizon" class="w-full h-full object-cover rounded"/>
                     </div>
                     <h3 class="text-sm font-semibold text-white leading-tight">Beyond the Horizon</h3>
                     <div class="flex items-center gap-1">
@@ -93,7 +95,7 @@
 
                 <a href="pages/booksinfo.html?id=4" class="space-y-3 max-w-[200px] hidden md:block hover-card cursor-pointer group">
                     <div class="aspect-[2/3] wireframe-box rounded-md shadow-sm overflow-hidden border border-gray-100 ">
-                        <img src="../assets/img/WhispersOfThePast.jpg" alt="Whispers of the Past" class="w-full h-full object-cover rounded"/>
+                        <img src="../assets/img/books/WhispersOfThePast.jpg" alt="Whispers of the Past" class="w-full h-full object-cover rounded"/>
                     </div>
                     <h3 class="text-sm font-semibold text-white leading-tight">Whispers of the Past</h3>
                     <div class="flex items-center gap-1">
@@ -104,7 +106,7 @@
 
                 <a href="pages/booksinfo.html?id=5" class="space-y-3 max-w-[200px] hidden lg:block hover-card cursor-pointer group">
                     <div class="aspect-[2/3] wireframe-box rounded-md shadow-sm overflow-hidden border border-gray-100">
-                        <img src="../assets/img/DigitalEmpire.jpg" alt="Digital Empire" class="w-full h-full object-cover rounded"/>
+                        <img src="../assets/img/books/DigitalEmpire.jpg" alt="Digital Empire" class="w-full h-full object-cover rounded"/>
                     </div>
                     <h3 class="text-sm font-semibold text-white leading-tight">Digital Empire</h3>
                     <div class="flex items-center gap-1">
@@ -128,7 +130,7 @@
                 <!-- Large Game Card -->
                 <div class="md:col-span-2 space-y-3 hover-card cursor-pointer group">
                     <a href="pages/gamesinfo.html?id=10" class="aspect-video wireframe-box rounded-xl block overflow-hidden relative">
-                        <img src="assets/img/re9.jpg" alt="Resident Evil Requiem" class="w-full h-full object-cover rounded-lgx"/>
+                        <img src="assets/img/games/re9.jpg" alt="Resident Evil Requiem" class="w-full h-full object-cover rounded-lgx"/>
                         <div class="textover text-blue-600 absolute bottom-0 left-0 p-4">
                             Resident Evil Re9uiem is... 
                         </div>
@@ -139,7 +141,7 @@
                 <div class="space-y-4">
                     <a href="pages/gamesinfo.html?id=12" class="flex space-x-4 items-center hover-card cursor-pointer group">
                         <div class="w-24 h-24 wireframe-box flex-shrink-0 rounded ">
-                            <img src="assets/img/ff2.png" alt="Game Icon" class="w-full h-full object-cover rounded"/>
+                            <img src="assets/img/games/ff2.png" alt="Game Icon" class="w-full h-full object-cover rounded"/>
                         </div>
                         <div class="flex-1 space-y-2">
                             <h3 class="text-lg font-semibold text-white leading-tight">Fatal Frame 2 Remake</h3>
@@ -148,7 +150,7 @@
                     </a>
                     <a href="pages/gamesinfo.html?id=13" class="flex space-x-4 items-center hover-card cursor-pointer group">
                         <div class="w-24 h-24 wireframe-box flex-shrink-0 rounded">
-                            <img src="assets/img/crisomdesert.jpg" alt="Game Icon" class="w-full h-full object-cover rounded"/>
+                            <img src="assets/img/games/crisomdesert.jpg" alt="Game Icon" class="w-full h-full object-cover rounded"/>
                         </div>
                         <div class="flex-1 space-y-2">
                             <h3 class="text-lg font-semibold text-white leading-tight">Crimson Desert</h3>
@@ -157,7 +159,7 @@
                     </a>
                     <a href="pages/gamesinfo.html?id=14" class="flex space-x-4 items-center hover-card cursor-pointer group">
                         <div class="w-24 h-24 wireframe-box flex-shrink-0 rounded">
-                            <img src="assets/img/pragmata.png" alt="Game Icon" class="w-full h-full object-cover rounded"/>
+                            <img src="assets/img/games/pragmata.png" alt="Game Icon" class="w-full h-full object-cover rounded"/>
                         </div>
                         <div class="flex-1 space-y-2">
                             <h3 class="text-lg font-semibold text-white leading-tight">Pragmata</h3>
@@ -165,7 +167,7 @@
                         </div>
                     </a>
                     <a href="pages/gamesinfo.html?id=8" class="flex space-x-4 items-center hover-card cursor-pointer group">
-                        <div class="w-24 h-24 wireframe-box flex-shrink-0 rounded"><img src="assets/img/doom.jpg" alt="Game Icon" class="w-full h-full object-cover rounded"/></div>
+                        <div class="w-24 h-24 wireframe-box flex-shrink-0 rounded"><img src="assets/img/games/doom.jpg" alt="Game Icon" class="w-full h-full object-cover rounded"/></div>
                         <div class="flex-1 space-y-2">
                             <h3 class="text-lg font-semibold text-white leading-tight">Doom the dark ages</h3>
                             <p class="text-sm text-white">Lançamento: 2026</p>
