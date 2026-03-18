@@ -652,3 +652,11 @@ input[type="text"], select {
    text-align: center;
    font-weight: bold;
 }
+
+.object-cover {
+  object-fit: cover;
+}
+
+.overflow-hidden { 
+    overflow: hidden; 
+}
