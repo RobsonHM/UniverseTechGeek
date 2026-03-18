@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Universe TechGeek</title>
+    <link rel="stylesheet" href="../assets/css/homecustom.css">
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <main class="contact-container mx-auto py-8 px-4">
+        <div class="section-title-wrapper">
+            <h1 class="text-4xl font-extrabold tracking-tighter uppercase">Talk <span class="text-blue-600">to Us</span></h1>
+            <p class="text-gray-500 mt-2">Questions, suggestions, or just a "hi"? Send us your message.</p>
+        </div>
+
+        <div class="grid grid-cols-1  gap-12 mt-12">
+            
+            <div class="register-container" style="margin: 0; max-width: 100%;">
+                <form id="contact-form" action="https://formspree.io/f/mpqazodl" method="POST" class="space-y-4">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="Your name here..." required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" name="email" placeholder="your@email.com" class="w-full p-3 bg-black border border-gray-300 rounded-lg text-white" required style="background: #000; border: 1px solid #444; color: white; padding: 12px; border-radius: 8px;">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" class="w-full h-48 bg-black border border-gray-400 rounded-lg p-4 text-white focus:border-red-600 outline-none" style="background: #000; border: 1px solid #444; color: white; padding: 12px; border-radius: 8px; width: 100%;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-register">Send Message</button>
+
+                    <div style="text-align: center; margin-top: 15px;">
+                        <a href="../home.html" style="color: var(--gray-500); font-size: 10px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">Back to Home</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Álbum - Universe TechGeek</title>
+    <link rel="stylesheet" href="../assets/css/homecustom.css">
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <header class="border-b border-gray-200 py-6">
+        <div class="container mx-auto px-4 h-16 flex items-center justify-between ">
+            <a href="../home.html" class="text-2xl font-extrabold font-bold button-transparent uppercase">universe Tech<span class="text-blue-600">Geek</span></a>
+            
+            <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
+                <a href="books.html" class="text-sm font-bold button-transparent ">Books</a>
+                <a href="games.html" class="text-sm font-bold button-transparent ">Games</a>
+                <a href="movies_series.html" class="text-sm font-bold button-transparent ">Movies & TV shows</a>
+                <a href="music.html" class="text-sm font-bold button-transparent ">Music</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <div id="switch-in-out">
+                    <a id="nav-login" href="register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
+                    
+                    <button id="nav-logout" onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-12 px-4">
+        <div class="book-container">
+            
+            <div class="shadow-2xl " id="album-cover-container">
+                <span class="text-xl font-bold uppercase text-center p-4 wireframe-box text-gray-500">Carregando Capa...</span>
+            </div>
+
+            <div class="space-y-6">
+                <div class="flex items-start justify-between flex-wrap gap-4">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tighter uppercase" id="album-title">Título do Álbum</h1>
+                        <p class="text-xl text-blue-600 font-bold mt-2" id="album-artist">Artista / Banda</p>
+                    </div>
+                    <div class="rating-badge text-white" id="album-rating">-</div>
+                </div>
+                
+                <p class="text-gray-600 text-lg leading-relaxed" id="album-description">
+                    Carregando descrição do álbum...
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-x-12 info-grid ">
+                    <div class="info-grid-item">
+                        <span class="text-gray-500 uppercase text-xs">Ano de Lançamento</span>
+                        <span class="font-bold" id="info-year">-</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500 uppercase text-xs">Gênero</span>
+                        <span class="font-bold" id="info-genre">-</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500 uppercase text-xs">Gravadora</span>
+                        <span class="font-bold" id="info-label">-</span>
+                    </div>
+                </div>
+                    <div class="info-grid-item col-span-1 md:col-span-3">
+                        <span class="text-gray-500 uppercase text-xs mb-4 block">Tracks</span>
+                        <div id="info-tracks" class="font-bold grid grid-cols-1 md:grid-cols-2 w-full">
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+
+            <div id="container-review-global"></div>
+        
+    </main>
+
+    <footer class="bg-gray-100 mt-20 border-t border-gray-200 text-center py-6">
+        <p class="text-gray-500 text-sm">© 2026 Universe TechGeek.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/sql-wasm.js"></script>
+
+    <script src="../JS/database.js"></script>
+    <script src="../JS/music.js"></script>
+    <script src="../JS/review.js"></script>
+    <script src="../JS/auth.js"></script>
+    
+
+</body>
+</html>

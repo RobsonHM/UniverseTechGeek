@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/HomeCustom.css">
+    <title>musc</title>
+    <!-- Importação do seu CSS personalizado -->
+    <link rel="stylesheet" href="../assets/css/homecustom.css">
+
 </head>
-<body>
-        <header class="border-b border-gray-200 py-6">
+<body class="antialiased">
+
+    <header class="border-b border-gray-200 py-6">
         <div class="container mx-auto px-4 h-16 flex items-center justify-between ">
             <a href="../home.html" class="text-2xl font-extrabold font-bold button-transparent uppercase">universe Tech<span class="text-blue-600">Geek</span></a>
             
@@ -27,13 +30,30 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto px-4 py-8">
-        <h1 class="text-3xl font-bold mb-6">Music</h1>
-        <p class="text-gray-700 mb-4">Explore the latest music releases, reviews, and news in the world of music. From pop to rock, hip-hop to classical, we cover it all.</p>
-        <!-- Add more content about music here -->
-    </main>
 
+    <main class="container mx-auto px-8 py-12">
+        <!-- Navegação e Alternador de Abas -->
 
+        <!-- SECÇÃO DE MÚSICA -->
+        <div id="section-music" class="content-section active">
+            <div class="section-title-wrapper">
+                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Music <span class="text-blue-600">Premium</span></h2>
+            </div>
+            
+            <div class="container mx-auto px-8 py-12">
+               <div class="media-grid" id="music-grid"></div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-500 text-xs font-mono uppercase tracking-widest">
+            </p>
+        </div>
+    </footer>
+
+    <script src="../JS/music.js"></script>
     <script src="../JS/auth.js"></script>
 
 </body>

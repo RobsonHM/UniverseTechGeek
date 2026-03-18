@@ -24,7 +24,7 @@
 
             <div class="flex items-center space-x-4">
                 <div id="switch-in-out">
-                    <a id="nav-login" href="pages/register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
+                    <a id="nav-login" href="register.html" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Login</a>
                     
                     <button id="nav-logout" onclick="logout()" class="btn-logout text-blue-600 font-semibold button-transparent hidden">Logout</button>
                 </div>
@@ -32,41 +32,31 @@
         </div>
     </header>
 
+
+    <section class="py-12 bg-gray-50 border-b border-gray-200">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8 items-center rounded ">
+                <div>
+                    <h1 class="text-5xl font-extrabold mb-4">Onimusha way of the sword</h1>
+                    <p class="text-xl text-gray-600 mb-8">It's the newest installment in the Onimusha series.</p>
+                </div>
+                <a href="gamesinfo.html?id=1" class=" rounded-2xl shadow-sm hover-card cursor-pointer group">
+                    <img src="../assets/img/games/onimusha-1.jpg" class="w-full h-full wireframe-box object-cover rounded-2xl"/>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <main class="container mx-auto px-4 py-12">
-        
-        <!-- Título da Secção -->
-        <h2 class="text-4xl font-bold mb-8">Notícias de Jogos</h2>
 
         <!-- Layout Principal: Destaque + Lateral -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 ">
-            
-            <!-- Notícia em Grande Destaque (Esquerda) -->
-            <article class="lg:col-span-8 space-y-6  hover-card cursor-pointer group">
-                <a href="gamesinfo.html?id=11" class="aspect-video rounded-2xl w-full wireframe-box">
-                    <div class="textover text-white  absolute bottom-0 left-0 p-6">
-                        Próxima Geração de Consolas: Tudo o que sabemos sobre o novo hardware da indústria.</div><img src="../assets/img/games/onimusha-1.jpg" alt="Notícia em Destaque" class="w-full h-full object-cover rounded-2xl"/>
-                </a>
-                <div class="space-y-4">
-                    <span class="news-badge">Especial E3 2026</span>
-                    <h3 class="text-3xl md:text-5xl font-bold leading-tight hover:text-blue-600 cursor-pointer">
-                        Próxima Geração de Consolas: Tudo o que sabemos sobre o novo hardware da indústria.
-                    </h3>
-                    <p class="text-gray-600 text-xl">
-                        Novos rumores indicam que o processamento em nuvem será a base do novo ecossistema, permitindo resoluções nativas em 8K sem latência.
-                    </p>
-                    <div class="flex items-center space-x-4 text-sm text-gray-500">
-                        <span class="font-bold text-white">Por: Redação Gamer</span>
-                        <span>•</span>
-                        <span>Há 2 horas</span>
-                    </div>
-                </div>
-            </article>
 
             <!-- Barra Lateral: Mais Lidas (Direita) -->
-            <aside class="lg:col-span-4 space-y-8">
+            <aside class="lg:col-span-4 space-y-8 ">
                 <h4 class="text-xl font-bold border-l-4 border-blue-600 pl-4 uppercase tracking-widest">Mais Lidas</h4>
                 
-                <div class="gap-4 flex flex-col">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <!-- Item lateral 1 -->
                     <div class="flex gap-4 hover-card cursor-pointer group">
                         <a href="gamesinfo.html?id=1" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
@@ -109,6 +99,57 @@
                             <p class="text-xs text-gray-500">Ontem</p>
                         </div>
                     </div>
+
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 group cursor-pointer">
+                        <a href="gamesinfo.html?id=3" class="w-24 h-24 wireframe-box rounded-lg overflow-hidden flex-shrink-0">
+                            <img src="../assets/img/games/horizon.jpg" alt="" class=" rounded-lg w-full h-full object-cover">
+                        </a>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">horizon forbidden west</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </aside>

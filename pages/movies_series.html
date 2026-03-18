@@ -33,37 +33,13 @@
 
     <main class="container mx-auto px-8 py-12">
         <!-- Navegação e Alternador de Abas -->
-        <div class="flex-row-between mb-8">
-            <a href="home.html" class="text-blue-600 hover:underline font-bold flex items-center">
-                <span style="margin-right: 8px;">&larr;</span> Início
-            </a>
-            
-            <div class="tab-container">
-                <button id="tab-movies" onclick="switchTab('movies')" class="tab-btn active">Filmes</button>
-                <button id="tab-series" onclick="switchTab('series')" class="tab-btn">Séries</button>
-            </div>
-        </div>
-
-        <!-- Busca e Filtros -->
-        <div class="search-filter-group">
-            <div class="search-input-wrapper">
-                <input type="text" placeholder="Pesquisar no catálogo..." class="outline-none">
-            </div>
-            <div style="min-width: 200px;">
-                <select class="outline-none cursor-pointer">
-                    <option>Todos os Géneros</option>
-                    <option>Ação</option>
-                    <option>Drama</option>
-                    <option>Terror</option>
-                    <option>Sci-Fi</option>
-                </select>
-            </div>
-        </div>
 
         <!-- SECÇÃO DE FILMES -->
         <div id="section-movies" class="content-section active">
             <div class="section-title-wrapper">
-                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Cinema <span class="text-blue-600">Total</span></h2>
+                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Movies <span class="text-blue-600">Premium</span></h2>
+                <button id="tab-series" onclick="switchTab('series')" class=" text-blue-600 font-semibold button-transparent">TV Shows</button>
+                <!-- tab-btn -->
             </div>
             
             <div class="container mx-auto px-8 py-12">
@@ -71,16 +47,19 @@
             </div>
         </div>
 
-        <!-- SECÇÃO DE SÉRIES -->
+        <!-- SECÇÃO DE SÉRIES    -->
         <div id="section-series" class="content-section">
             <div class="section-title-wrapper">
-                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">Séries <span class="text-blue-600">Premium</span></h2>
+                <h2 class="text-3xl font-extrabold uppercase tracking-tighter">TV Shows <span class="text-blue-600">Premium</span></h2>
+                <button id="tab-movies" onclick="switchTab('movies')" class="text-blue-600 font-semibold button-transparent">Movies</button>
+                <!-- tab-btn active -->
             </div>
 
             <div class="container mx-auto px-8 py-12">
                 <div class="media-grid" id="series-grid"></div>
             </div>
         </div>
+
 
         <!-- Paginação -->
         <nav class="py-12 flex justify-center items-center space-x-4">

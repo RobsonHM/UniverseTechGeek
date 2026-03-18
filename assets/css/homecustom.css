@@ -52,6 +52,7 @@ body{
 .gap-6{ gap:24px; }
 .gap-8{ gap:32px; }
 .gap-12{ gap:48px; }
+.gap-x-12 { column-gap: 48px; }
 
 .hidden{ display:none; }
 .block{ display:block; }
@@ -84,6 +85,7 @@ body{
 
 .grid-cols-1{ grid-template-columns:repeat(1,minmax(0,1fr)); }
 .grid-cols-2{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+.grid-cols-3{ grid-template-columns:repeat(3,minmax(0,1fr)); }
 
 .md\:grid-cols-2,
 .md\:grid-cols-3,
@@ -111,7 +113,9 @@ body{
 .h-32 { height:128px;}
 .h-48{ height:192px; }
 .h-64{ height:256px; }
+.h-128{ height:512px; }
 
+.w-2{ width:18px; }
 .w-6{ width:24px; }
 .w-8{ width:32px; }
 .w-7{ width:42px; }
@@ -119,6 +123,7 @@ body{
 .w-24{ width:96px; }
 .w-32{ width:128px; }
 .w-64{width: 256px;}
+.w128{ width:512px; }
 .w-1\/2{ width:50%; }
 .w-3\/4{ width:75%; }
 .w-full{ width:100%; }
@@ -659,4 +664,53 @@ input[type="text"], select {
 
 .overflow-hidden { 
     overflow: hidden; 
+}
+
+/* Impede que o texto quebre a linha e adiciona "..." */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Isso força as duas colunas a terem exatamente o mesmo tamanho */
+#info-tracks {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    column-gap: 40px; /* Espaço entre as colunas */
+    align-items: start;
+}
+
+/* Garante que o item da lista ocupe 100% da sua coluna e não saia dela */
+#info-tracks > div {
+    min-width: 0; 
+    width: 100%;
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+    #info-tracks {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.contact-container {
+   width: 100%;
+   max-width: 600px;
+   padding: 40px;
+   background: #111; /* Cor escura para o container */
+   border: 1px solid #333;
+   border-radius: 16px;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+   margin: 20px auto; /* Centraliza na página */
+}
+
+.about-container {
+   width: 100%;
+   max-width: 1000px;
+   padding: 20px;
+   background: #111; /* Cor escura para o container */
+   border: 1px solid #333;
+   border-radius: 16px;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+   margin: 20px auto; /* Centraliza na página */
 }
