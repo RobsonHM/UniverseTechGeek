@@ -714,3 +714,19 @@ input[type="text"], select {
    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
    margin: 20px auto; /* Centraliza na página */
 }
+
+/* Forces a consistent size for the book cover in the details panel */
+.book-cover-detail {
+    width: 256px;           /* Matches your w-64 class */
+    height: 384px;          /* Forces a 2:3 aspect ratio (256 * 1.5) */
+    object-fit: cover;      /* Crops the image to fill the space without stretching */
+    background-color: var(--gray-100); /* Placeholder color while loading */
+}
+
+/* If you also want to fix the sizes in the main list/grid: */
+.book-item img {
+    width: 100%;
+    aspect-ratio: 2 / 3;    /* Modern CSS way to keep proportions */
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                
 
-                <div class="flex flex-col md:flex-row items-start gap-6 mb-4 w-full items-center justify-center">
-                    <img src="${cover}" alt="${title}" class="w-64 object-cover rounded-md shadow-md">
+                <div class="flex flex-col md:flex-row items-start gap-6 mb-4 w-full items-center justify-center ">
+                    <img src="${cover}" alt="${title}" class="book-cover-detail object-cover rounded-md shadow-md">
                     <div>
                         <h3 class="text-3xl font-extrabold text-gray-900">${title}</h3>
                         <p class="text-lg text-indigo-600 font-medium mt-1">

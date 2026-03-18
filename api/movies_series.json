@@ -5,10 +5,18 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "year": 2001,
       "rating": 7.6,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "152 min",
       "director": "Chris Columbus",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Richard Harris"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Richard Harris"
+      ],
       "poster": "../assets/img/movies_series/HP1.jpg",
       "synopsis": "Harry Potter, an orphaned boy living a miserable life with his neglectful aunt and uncle, discovers on his eleventh birthday that he is a wizard. He is whisked away to Hogwarts School of Witchcraft and Wizardry, where he meets his loyal friends Ron Weasley and Hermione Granger. As he navigates his first year, he learns of his fame as the 'Boy Who Lived' and the dark legacy of Lord Voldemort. The trio uncovers a plot to steal the Philosopher's Stone, a legendary object that grants immortality. Harry must face trials of logic, chess, and courage to stop a hidden enemy from returning Voldemort to power."
     },
@@ -17,10 +25,18 @@
       "title": "Harry Potter and the Chamber of Secrets",
       "year": 2002,
       "rating": 7.4,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "161 min",
       "director": "Chris Columbus",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Tom Felton"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Tom Felton"
+      ],
       "poster": "../assets/img/movies_series/HP2.jpg",
       "synopsis": "In his second year, Harry ignores warnings from a house-elf named Dobby and returns to Hogwarts. Soon, a series of mysterious attacks leave students petrified, and messages written in blood appear on the walls claiming the Chamber of Secrets has been opened. Suspicion falls on Harry due to his ability to speak Parseltongue. As the school faces closure, Harry, Ron, and Hermione brew Polyjuice Potion and follow clues into the pipes of the school. Harry ultimately enters the Chamber to rescue Ron's sister, Ginny, facing a giant Basilisk and the memory of a young Tom Riddle."
     },
@@ -29,10 +45,18 @@
       "title": "Harry Potter and the Prisoner of Azkaban",
       "year": 2004,
       "rating": 7.9,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "142 min",
       "director": "Alfonso Cuarón",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Gary Oldman"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Gary Oldman"
+      ],
       "poster": "../assets/img/movies_series/HP3.jpg",
       "synopsis": "Harry's third year is overshadowed by the escape of Sirius Black, a notorious prisoner from Azkaban believed to be a loyal follower of Voldemort out to kill Harry. The school is guarded by soul-sucking Dementors, which have a terrifying effect on Harry. Under the guidance of Professor Lupin, Harry learns the Patronus Charm. However, the truth about Black's past and his connection to Harry's parents is far more complex than the ministry admits. Using a Time-Turner, Harry and Hermione race against the clock to save innocent lives and uncover the true traitor who betrayed the Potters."
     },
@@ -41,10 +65,18 @@
       "title": "Harry Potter and the Goblet of Fire",
       "year": 2005,
       "rating": 7.7,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "157 min",
       "director": "Mike Newell",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Robert Pattinson"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Robert Pattinson"
+      ],
       "poster": "../assets/img/movies_series/HP4.jpg",
       "synopsis": "Hogwarts hosts the Triwizard Tournament, a dangerous competition between three magic schools. Though underage, Harry is mysteriously selected by the Goblet of Fire as a fourth champion. He must survive three grueling tasks: battling a dragon, diving into the Black Lake, and navigating a sentient maze. However, the tournament is a ruse designed by Voldemort's followers. In the graveyard of Little Hangleton, the Triwizard Cup transports Harry to a ritual that sees the Dark Lord reborn in a physical body, leading to a tragic loss and the beginning of a second wizarding war."
     },
@@ -53,10 +85,18 @@
       "title": "Harry Potter and the Order of the Phoenix",
       "year": 2007,
       "rating": 7.5,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "138 min",
       "director": "David Yates",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Imelda Staunton"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Imelda Staunton"
+      ],
       "poster": "../assets/img/movies_series/HP5.jpg",
       "synopsis": "The Ministry of Magic refuses to believe Voldemort has returned, launching a smear campaign against Harry and Dumbledore. High Inquisitor Dolores Umbridge is installed at Hogwarts, turning the school into a regime of strict decrees. In response, Harry forms 'Dumbledore's Army' to teach his classmates defensive magic in secret. Haunted by visions from Voldemort's mind, Harry is lured to the Department of Mysteries to retrieve a prophecy. A massive battle ensues between the Order of the Phoenix and Death Eaters, culminating in a devastating personal loss for Harry and the public reveal of Voldemort's return."
     },
@@ -65,10 +105,18 @@
       "title": "Harry Potter and the Half-Blood Prince",
       "year": 2009,
       "rating": 7.6,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "153 min",
       "director": "David Yates",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Michael Gambon"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Michael Gambon"
+      ],
       "poster": "../assets/img/movies_series/HP6.png",
       "synopsis": "As Voldemort's grip tightens on both the Muggle and Wizarding worlds, Dumbledore prepares Harry for the final battle. They explore the memories of a young Tom Riddle to understand his obsession with Horcruxes—objects containing pieces of his soul. Meanwhile, Harry finds a mysterious textbook belonging to the 'Half-Blood Prince' that helps him excel in Potions. Tensions rise as Draco Malfoy undergoes a secret mission for the Dark Lord. The year ends in tragedy atop the Astronomy Tower, forcing Harry to abandon his schooling to hunt the remaining Horcruxes alone."
     },
@@ -77,10 +125,18 @@
       "title": "Harry Potter and the Deathly Hallows: Part 1",
       "year": 2010,
       "rating": 7.7,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "146 min",
       "director": "David Yates",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Helena Bonham Carter"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Helena Bonham Carter"
+      ],
       "poster": "../assets/img/movies_series/HP7_1.jpg",
       "synopsis": "Harry, Ron, and Hermione set out on a perilous mission to track down and destroy the secret to Voldemort's immortality: the Horcruxes. On the run and without the protection of Dumbledore, the three friends must rely on one another more than ever. But Dark Forces in their midst threaten to tear them apart. They also learn of the Deathly Hallows—three powerful magical objects that, when united, make the possessor the Master of Death. The film ends with Voldemort securing the Elder Wand, while the trio suffers a heartbreaking loss during their escape from Malfoy Manor."
     },
@@ -89,398 +145,632 @@
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "year": 2011,
       "rating": 8.1,
-      "genre": ["Fantasy", "Adventure"],
+      "genre": [
+        "Fantasy",
+        "Adventure"
+      ],
       "duration": "130 min",
       "director": "David Yates",
-      "cast": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Ralph Fiennes"],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Ralph Fiennes"
+      ],
       "poster": "../assets/img/movies_series/HP7_2.jpg",
       "synopsis": "In the epic finale, the battle between the good and evil forces of the wizarding world escalates into an all-out war. The stakes have never been higher and no one is safe. But it is Harry Potter who may be called upon to make the ultimate sacrifice as he draws closer to the climactic showdown with Lord Voldemort. Following a daring break-in at Gringotts, the trio returns to Hogwarts for one final stand. Secrets about Severus Snape are revealed, and the battle of Hogwarts determines the fate of the wizarding world in a final, explosive confrontation between Harry and Voldemort."
     },
     {
       "id": 9,
-      "title": "The Dark Knight",
-      "year": 2008,
-      "rating": 9.0,
-      "genre": ["Action", "Crime", "Drama"],
-      "duration": "152 min",
+      "title": "Oppenheimer",
+      "year": 2023,
+      "rating": 8.0,
+      "genre": [
+        "Drama",
+        "History"
+      ],
+      "duration": "181 min",
       "director": "Christopher Nolan",
-      "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Michael Caine"],
-      "poster": "../assets/img/movies_series/dark_knight.jpg",
-      "synopsis": "Batman, Lieutenant James Gordon, and District Attorney Harvey Dent form an alliance to dismantle the organized crime syndicates that plague Gotham City. Their efforts are thwarted by a rising criminal mastermind known as the Joker, who seeks to plunge Gotham into anarchy and force Batman to cross the line between hero and vigilante. As the Joker orchestrates a series of tragic events, Harvey Dent's psyche fractures, leading to the birth of the villain Two-Face. Batman must take the blame for Dent's crimes to preserve the city's hope, becoming a 'silent guardian' and a 'dark knight.'"
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr."
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "synopsis": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II."
     },
     {
       "id": 10,
-      "title": "Inception",
-      "year": 2010,
-      "rating": 8.8,
-      "genre": ["Action", "Sci-Fi", "Adventure"],
-      "duration": "148 min",
-      "director": "Christopher Nolan",
-      "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page", "Ken Watanabe"],
-      "poster": "../assets/img/movies_series/inception.jpg",
-      "synopsis": "Dom Cobb is a professional thief who specializes in extraction: stealing valuable secrets from deep within the subconscious during the dream state. His skill has made him a hot commodity in corporate espionage, but it has also cost him his family and his home. Cobb is offered a chance at redemption by performing 'inception'—planting an idea instead of stealing one. He assembles a team of specialists to enter the mind of a powerful heir, but a projection of his deceased wife threatens to sabotage the mission. The team must navigate multiple layers of dreams, where time slows down and the laws of physics disappear."
+      "title": "Poor Things",
+      "year": 2023,
+      "rating": 7.7,
+      "genre": [
+        "Science Fiction",
+        "Romance",
+        "Comedy"
+      ],
+      "duration": "141 min",
+      "director": "Yorgos Lanthimos",
+      "cast": [
+        "Emma Stone",
+        "Mark Ruffalo",
+        "Willem Dafoe",
+        "Ramy Youssef"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      "synopsis": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation."
     },
     {
       "id": 11,
-      "title": "Interstellar",
-      "year": 2014,
-      "rating": 8.7,
-      "genre": ["Adventure", "Drama", "Sci-Fi"],
-      "duration": "169 min",
-      "director": "Christopher Nolan",
-      "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Michael Caine"],
-      "poster": "../assets/img/movies_series/interstellar.jpg",
-      "synopsis": "In a future where Earth is dying from a global blight and dust storms, former NASA pilot Cooper is recruited for a desperate mission. Scientists have discovered a wormhole near Saturn that leads to a distant galaxy with potentially habitable planets. Cooper must leave his children behind to lead a crew through the wormhole to evaluate three candidate worlds. As they encounter massive black holes and time dilation—where hours on a planet equal years on Earth—Cooper struggles to find a way back to his daughter, Murph, while searching for a way to transport the human population to a new home."
+      "title": "Dune",
+      "year": 2021,
+      "rating": 7.8,
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "duration": "155 min",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson",
+        "Oscar Isaac",
+        "Jason Momoa"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg",
+      "synopsis": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
     },
     {
       "id": 12,
-      "title": "The Matrix",
-      "year": 1999,
-      "rating": 8.7,
-      "genre": ["Action", "Sci-Fi"],
-      "duration": "136 min",
-      "director": "Lana Wachowski, Lilly Wachowski",
-      "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss", "Hugo Weaving"],
-      "poster": "../assets/img/movies_series/matrix.jpg",
-      "synopsis": "Thomas Anderson, a computer programmer who moonlights as a hacker named Neo, is contacted by a group of rebels who reveal that the world he lives in is a simulated reality called the Matrix. Created by sentient machines to pacify humanity while their bodies are used as an energy source, the Matrix is a digital prison. Neo is brought into the real world by Morpheus, who believes Neo is 'The One' destined to end the war. Neo undergoes rigorous training to manipulate the Matrix's physics, leading to a high-stakes showdown with Agent Smith, a powerful program designed to eliminate human resistance."
+      "title": "Firecreek",
+      "year": 1968,
+      "rating": 6.3,
+      "genre": [
+        "Western"
+      ],
+      "duration": "104 min",
+      "director": "Vincent McEveety",
+      "cast": [
+        "James Stewart",
+        "Henry Fonda",
+        "Inger Stevens",
+        "Gary Lockwood"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/zypuu5aEoyM5tadMAkbNm3Kccq9.jpg",
+      "synopsis": "A peace-loving, part-time sheriff in the small town of Firecreek must take a stand when a gang of vicious outlaws takes over his town."
     },
     {
       "id": 13,
-      "title": "Parasite",
-      "year": 2019,
-      "rating": 8.5,
-      "genre": ["Drama", "Thriller"],
-      "duration": "132 min",
-      "director": "Bong Joon Ho",
-      "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik"],
-      "poster": "../assets/img/movies_series/parasite.jpg",
-      "synopsis": "The Kim family lives in a cramped semi-basement, struggling to make ends meet by folding pizza boxes. When the son, Ki-woo, is hired as a tutor for the wealthy Park family, the Kims hatch a plan to infiltrate the household by posing as unrelated, highly qualified professionals. One by one, they replace the Parks' current staff. However, their symbiotic relationship with the Parks takes a dark turn when they discover a secret hidden in the mansion's basement. A sudden storm and a violent confrontation at a birthday party lead to a tragic exploration of class warfare, greed, and the insurmountable divide between the rich and the poor."
+      "title": "Se7en",
+      "year": 1995,
+      "rating": 8.4,
+      "genre": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "duration": "127 min",
+      "director": "David Fincher",
+      "cast": [
+        "Morgan Freeman",
+        "Brad Pitt",
+        "Gwyneth Paltrow",
+        "John Cassini"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+      "synopsis": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case."
     },
     {
       "id": 14,
-      "title": "Dune: Part Two",
-      "year": 2024,
-      "rating": 8.6,
-      "genre": ["Action", "Adventure", "Sci-Fi"],
-      "duration": "166 min",
-      "director": "Denis Villeneuve",
-      "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson", "Javier Bardem"],
-      "poster": "../assets/img/movies_series/dune2.jpg",
-      "synopsis": "Picking up immediately after the destruction of House Atreides, Paul Atreides and his mother Jessica seek refuge with the Fremen in the deep desert of Arrakis. Paul must earn the trust of the Fremen, including the fierce warrior Chani, and adapt to their ways to lead a rebellion against the Harkonnens. As he drinks the Water of Life, his prescient visions intensify, showing a future of holy war across the universe in his name. Paul must choose between his love for Chani and the fate of the known universe, eventually challenging the Padishah Emperor for the throne in a massive assault on the city of Arrakeen."
+      "title": "Predator: Badlands",
+      "year": 2025,
+      "rating": 7.7,
+      "genre": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "duration": "107 min",
+      "director": "Dan Trachtenberg",
+      "cast": [
+        "Elle Fanning",
+        "Dimitrius Schuster-Koloamatangi",
+        "Ravi Narayan",
+        "Michael Homick"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/erTRAi241eYF4K8KoGGOI8kFPox.jpg",
+      "synopsis": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary."
     },
     {
       "id": 15,
-      "title": "The Shawshank Redemption",
-      "year": 1994,
-      "rating": 9.3,
-      "genre": ["Drama"],
-      "duration": "142 min",
-      "director": "Frank Darabont",
-      "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
-      "poster": "../assets/img/movies_series/shawshank.jpg",
-      "synopsis": "Andy Dufresne, a quiet banker, is convicted of murdering his wife and her lover despite his claims of innocence. Sentenced to life at Shawshank State Penitentiary, he befriends 'Red,' a fellow inmate known for smuggling contraband. Over the decades, Andy uses his financial skills to help the corrupt Warden and guards, all while enduring the brutality of prison life. He transforms the prison library and brings hope to his fellow inmates. However, Andy has a secret plan involving a small rock hammer and a poster of Rita Hayworth, leading to one of the most legendary escapes in cinematic history and a poignant reunion on a Mexican beach."
+      "title": "Superman",
+      "year": 2025,
+      "rating": 7.3,
+      "genre": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "duration": "130 min",
+      "director": "James Gunn",
+      "cast": [
+        "David Corenswet",
+        "Rachel Brosnahan",
+        "Nicholas Hoult",
+        "Edi Gathegi"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "synopsis": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
     },
     {
       "id": 16,
-      "title": "The Godfather",
-      "year": 1972,
-      "rating": 9.2,
-      "genre": ["Crime", "Drama"],
-      "duration": "175 min",
-      "director": "Francis Ford Coppola",
-      "cast": ["Marlon Brando", "Al Pacino", "James Caan", "Diane Keaton"],
-      "poster": "../assets/img/movies_series/godfather.jpg",
-      "synopsis": "Don Vito Corleone is the head of one of the Five Families of the New York Mafia. When a drug lord asks for the Don's protection and political influence to expand his trade, Vito refuses, leading to a bloody assassination attempt. His youngest son, Michael, a decorated war hero who previously wanted nothing to do with the family business, is drawn into the cycle of violence to protect his father. Michael orchestrates the murder of a police captain and a rival mobster, fleeing to Sicily. Upon his return, he consolidates power, orchestrating the 'baptism of fire'—a series of coordinated hits that establish him as the new, ruthless Godfather."
+      "title": "xXx",
+      "year": 2002,
+      "rating": 6.0,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "duration": "124 min",
+      "director": "Rob Cohen",
+      "cast": [
+        "Vin Diesel",
+        "Asia Argento",
+        "Marton Csokas",
+        "Samuel L. Jackson"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
+      "synopsis": "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi."
     },
     {
       "id": 17,
-      "title": "Spirited Away",
-      "year": 2001,
-      "rating": 8.6,
-      "genre": ["Animation", "Adventure", "Family"],
-      "duration": "125 min",
-      "director": "Hayao Miyazaki",
-      "cast": ["Daveigh Chase", "Suzanne Pleshette", "Jason Marsden", "David Ogden Stiers"],
-      "poster": "../assets/img/movies_series/spirited_away.jpg",
-      "synopsis": "10-year-old Chihiro is moving to a new neighborhood when her father takes a shortcut, leading the family to what appears to be an abandoned theme park. After her parents are transformed into pigs for eating spirit food, Chihiro discovers she has entered a bathhouse for the gods. To survive and save her parents, she must work for the witch Yubaba, who steals her name. Aided by a mysterious boy named Haku, Chihiro encounters strange spirits, including the lonely No-Face. Through bravery and compassion, she cleanses a 'stink spirit' and eventually breaks the spells holding her and Haku captive, finding her way back to the human world."
+      "title": "Jay Kelly",
+      "year": 2025,
+      "rating": 6.1,
+      "genre": [
+        "Drama",
+        "Comedy"
+      ],
+      "duration": "132 min",
+      "director": "Noah Baumbach",
+      "cast": [
+        "George Clooney",
+        "Adam Sandler",
+        "Laura Dern",
+        "Billy Crudup"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
+      "synopsis": "Famous movie actor Jay Kelly embarks on a journey of self-discovery, confronting both his past and present, accompanied by his devoted manager, Ron."
     },
     {
       "id": 18,
-      "title": "Fight Club",
-      "year": 1999,
-      "rating": 8.8,
-      "genre": ["Drama"],
-      "duration": "139 min",
-      "director": "David Fincher",
-      "cast": ["Brad Pitt", "Edward Norton", "Meat Loaf", "Helena Bonham Carter"],
-      "poster": "../assets/img/movies_series/fight_club.jpg",
-      "synopsis": "An unnamed Narrator, suffering from chronic insomnia and disillusionment with consumerist culture, meets Tyler Durden, a charismatic soap salesman. After the Narrator's apartment is destroyed, the two start an underground fight club where men can vent their frustrations through bare-knuckle brawling. The club quickly evolves into 'Project Mayhem,' an anti-government terrorist organization. As the Narrator becomes increasingly disturbed by Tyler's nihilistic goals, he discovers a shocking truth: Tyler is a dissociated personality within his own mind. He must stop Tyler's plan to erase consumer debt by blowing up credit card buildings while reconciling his own identity."
+      "title": "The Great Flood",
+      "year": 2025,
+      "rating": 6.0,
+      "genre": [
+        "Science Fiction",
+        "Adventure",
+        "Drama"
+      ],
+      "duration": "107 min",
+      "director": "Kim Byung-woo",
+      "cast": [
+        "Kim Da-mi",
+        "Park Hae-soo",
+        "Kwon Eun-seong",
+        "Jeon Hye-jin"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/1tUOZQDgZaGqZtrB21MieiXARL2.jpg",
+      "synopsis": "When a raging flood traps a researcher and her young son, a call to a crucial mission puts their escape — and the future of humanity — on the line."
     },
     {
       "id": 19,
-      "title": "Se7en",
+      "title": "Toy Story",
       "year": 1995,
-      "rating": 8.6,
-      "genre": ["Crime", "Drama", "Mystery"],
-      "duration": "127 min",
-      "director": "David Fincher",
-      "cast": ["Morgan Freeman", "Brad Pitt", "Kevin Spacey", "Gwyneth Paltrow"],
-      "poster": "../assets/img/movies_series/se7en.jpg",
-      "synopsis": "Retiring police detective William Somerset is paired with the impulsive David Mills to investigate a series of gruesome murders inspired by the seven deadly sins: gluttony, greed, sloth, lust, pride, envy, and wrath. The killer, John Doe, meticulously stages each crime scene to reflect the victim's 'sin.' As the detectives get closer, John Doe turns himself in, but reveals he has two more murders planned. He leads the detectives to a remote location, where a delivery box arrives containing a horrific secret that forces Detective Mills into a final, devastating choice, completing John Doe's masterpiece of sin and misery."
+      "rating": 8.0,
+      "genre": [
+        "Family",
+        "Comedy",
+        "Animation",
+        "Adventure"
+      ],
+      "duration": "81 min",
+      "director": "John Lasseter",
+      "cast": [
+        "Tom Hanks",
+        "Tim Allen",
+        "Don Rickles",
+        "Jim Varney"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+      "synopsis": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences."
     },
     {
       "id": 20,
-      "title": "Everything Everywhere All at Once",
-      "year": 2022,
-      "rating": 7.8,
-      "genre": ["Action", "Adventure", "Sci-Fi"],
-      "duration": "139 min",
-      "director": "Daniel Kwan, Daniel Scheinert",
-      "cast": ["Michelle Yeoh", "Stephanie Hsu", "Ke Huy Quan", "Jamie Lee Curtis"],
-      "poster": "../assets/img/movies_series/everything_everywhere.jpg",
-      "synopsis": "Evelyn Wang is a stressed laundromat owner facing a tax audit and a failing marriage. During a meeting with an IRS auditor, her husband Waymond's personality shifts, revealing he is a version of himself from a parallel universe. He explains that a great evil, Jobu Tupaki, is threatening the entire multiverse. Evelyn must learn to 'verse-jump'—accessing the skills and memories of her alternate selves—to fight off attackers. As she travels through bizarre universes (including one where people have hot dogs for fingers), she realizes that Jobu Tupaki is a version of her own daughter, Joy. Evelyn must use the power of empathy and kindness to save her family and all of existence."
+      "title": "GOAT",
+      "year": 2026,
+      "rating": 7.6,
+      "genre": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "duration": "100 min",
+      "director": "Tyree Dillihay",
+      "cast": [
+        "Caleb McLaughlin",
+        "Gabrielle Union",
+        "Stephen Curry",
+        "Aaron Pierre"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "synopsis": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world."
+    },
+    {
+      "id": 21,
+      "title": "Joy Ride",
+      "year": 2001,
+      "rating": 6.5,
+      "genre": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "duration": "97 min",
+      "director": "John Dahl",
+      "cast": [
+        "Steve Zahn",
+        "Paul Walker",
+        "Leelee Sobieski",
+        "Jessica Bowman"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/1LVGjf1QWgkNNPQssZtuT1GYKoP.jpg",
+      "synopsis": "Three young people on a road trip from Colorado to New Jersey talk to a trucker on their CB radio, then must escape when he turns out to be a psychotic killer."
+    },
+    {
+      "id": 22,
+      "title": "Sentimental Value",
+      "year": 2025,
+      "rating": 7.5,
+      "genre": [
+        "Drama"
+      ],
+      "duration": "133 min",
+      "director": "Joachim Trier",
+      "cast": [
+        "Renate Reinsve",
+        "Stellan Skarsgård",
+        "Inga Ibsdotter Lilleaas",
+        "Elle Fanning"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
+      "synopsis": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star."
+    },
+    {
+      "id": 23,
+      "title": "Alien: Covenant",
+      "year": 2017,
+      "rating": 6.2,
+      "genre": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "duration": "122 min",
+      "director": "Ridley Scott",
+      "cast": [
+        "Michael Fassbender",
+        "Katherine Waterston",
+        "Billy Crudup",
+        "Danny McBride"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg",
+      "synopsis": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world."
     }
   ],
   "series": [
     {
-      "id": 101,
+      "id": 1001,
       "title": "Dark",
       "year": 2017,
       "seasons": 3,
       "rating": 8.7,
-      "genre": ["Sci-Fi", "Mystery", "Drama"],
+      "genre": [
+        "Sci-Fi",
+        "Mystery",
+        "Drama"
+      ],
       "creator": "Baran bo Odar & Jantje Friese",
-      "cast": ["Louis Hofmann", "Karoline Eichhorn", "Lisa Vicari", "Maja Schöne"],
+      "cast": [
+        "Louis Hofmann",
+        "Karoline Eichhorn",
+        "Lisa Vicari",
+        "Maja Schöne"
+      ],
       "poster": "../assets/img/movies_series/dark.jpg",
       "synopsis": "The story begins in the German town of Winden in 2019, where the disappearance of a young boy named Mikkel Nielsen triggers a search that uncovers a time-travel conspiracy spanning three generations. As Jonas Kahnwald searches for answers about his father's suicide, he discovers a wormhole in the local caves that allows travel between 1953, 1986, and 2019 in 33-year cycles. The narrative expands to include a secret society called Sic Mundus, led by the mysterious Adam, who seeks to control time. The series explores the concept of the bootstrap paradox, where characters become the cause of their own tragedies. Ultimately, Jonas and his counterpart Martha from an alternate world must find the 'Origin' to break an endless cycle of suffering and prevent the apocalypse."
     },
     {
-      "id": 102,
-      "title": "Breaking Bad",
-      "year": 2008,
-      "seasons": 5,
-      "rating": 9.5,
-      "genre": ["Crime", "Drama", "Thriller"],
-      "creator": "Vince Gilligan",
-      "cast": ["Bryan Cranston", "Aaron Paul", "Anna Gunn", "Giancarlo Esposito"],
-      "poster": "../assets/img/movies_series/breaking_bad.jpg",
-      "synopsis": "Walter White, a brilliant but underpaid high school chemistry teacher, is diagnosed with terminal lung cancer. Desperate to provide for his pregnant wife and disabled son, he teams up with a former student, Jesse Pinkman, to cook and sell high-grade blue methamphetamine. As Walt transforms from a mild-mannered family man into the ruthless kingpin 'Heisenberg,' he becomes entangled with the Mexican cartel and a local drug lord disguised as a chicken restaurant owner. His pursuit of power and money destroys his family and leads to a trail of bodies, culminating in a final stand to settle his debts and secure his legacy."
-    },
-    {
-      "id": 103,
-      "title": "Stranger Things",
-      "year": 2016,
-      "seasons": 4,
-      "rating": 8.7,
-      "genre": ["Sci-Fi", "Horror", "Drama"],
-      "creator": "The Duffer Brothers",
-      "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour", "Winona Ryder"],
-      "poster": "../assets/img/movies_series/stranger_things.jpg",
-      "synopsis": "In the 1980s town of Hawkins, Indiana, the disappearance of 12-year-old Will Byers leads his friends Mike, Dustin, and Lucas on a search that introduces them to Eleven, a girl with psychokinetic powers. They discover the 'Upside Down,' a dark parallel dimension inhabited by a predatory creature called the Demogorgon. As secret government experiments are revealed, the town's Sheriff, Jim Hopper, and Will's mother, Joyce, must find a way to rescue Will. Subsequent seasons see the threat grow with the Mind Flayer and the vengeful Vecna, forcing the group to mature and fight together against supernatural forces threatening to consume their world."
-    },
-    {
-      "id": 104,
-      "title": "Succession",
-      "year": 2018,
-      "seasons": 4,
-      "rating": 8.9,
-      "genre": ["Drama", "Comedy"],
-      "creator": "Jesse Armstrong",
-      "cast": ["Brian Cox", "Jeremy Strong", "Sarah Snook", "Kieran Culkin"],
-      "poster": "../assets/img/movies_series/succession.jpg",
-      "synopsis": "The Roy family, led by the aging patriarch Logan Roy, controls Waystar Royco, one of the world's largest media and entertainment conglomerates. When Logan suffers a stroke, his four children—Kendall, Siobhan (Shiv), Roman, and Connor—begin a brutal and hilarious power struggle to see who will take over the empire. The series follows their constant betrayals, alliances, and attempts to gain their father's approval. As the company faces scandals and hostile takeovers, the Roys must navigate their own dysfunctional relationships, culminating in a final board meeting that decides the fate of the company and their family bond."
-    },
-    {
-      "id": 105,
-      "title": "The Last of Us",
-      "year": 2023,
-      "seasons": 1,
-      "rating": 8.7,
-      "genre": ["Action", "Adventure", "Drama"],
-      "creator": "Craig Mazin & Neil Druckmann",
-      "cast": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Nick Offerman"],
-      "poster": "../assets/img/movies_series/last_of_us.jpg",
-      "synopsis": "Twenty years after a fungal outbreak turns much of humanity into aggressive 'Infected,' Joel, a hardened survivor, is tasked with smuggling a 14-year-old girl named Ellie across the post-apocalyptic United States. Ellie is immune to the infection, and a rebel group called the Fireflies believes she is the key to creating a vaccine. Their journey across overgrown cities and dangerous survivor settlements forces them to rely on each other, forming a father-daughter bond. However, upon reaching the Firefly base, Joel is faced with a moral dilemma: save Ellie's life or allow a surgery that would kill her but potentially save humanity."
-    },
-    {
-      "id": 106,
-      "title": "Better Call Saul",
-      "year": 2015,
-      "seasons": 6,
-      "rating": 9.0,
-      "genre": ["Crime", "Drama"],
-      "creator": "Vince Gilligan & Peter Gould",
-      "cast": ["Bob Odenkirk", "Rhea Seehorn", "Jonathan Banks", "Tony Dalton"],
-      "poster": "../assets/img/movies_series/better_call_saul.jpg",
-      "synopsis": "Set years before he becomes the lawyer for Walter White, Jimmy McGill is a struggling public defender in Albuquerque trying to make a name for himself. Living in the shadow of his successful but mentally ill brother Chuck, Jimmy's moral compass begins to fray as he adopts the persona of Saul Goodman. The show also explores the backstory of Mike Ehrmantraut as he becomes involved with the Salamanca drug cartel and Gus Fring. Jimmy's relationship with the brilliant lawyer Kim Wexler serves as the emotional core of the series, as the two become increasingly entangled in scams that lead to tragic consequences and a life on the run."
-    },
-    {
-      "id": 107,
-      "title": "Game of Thrones",
-      "year": 2011,
-      "seasons": 8,
-      "rating": 9.2,
-      "genre": ["Fantasy", "Drama"],
-      "creator": "David Benioff & D. B. Weiss",
-      "cast": ["Emilia Clarke", "Kit Harington", "Peter Dinklage", "Lena Headey"],
-      "poster": "../assets/img/movies_series/game_of_thrones.jpg",
-      "synopsis": "In the continent of Westeros, noble families fight for control of the Iron Throne. The story begins with the Stark family as Lord Eddard Stark is called to serve as Hand of the King. Following his death, a civil war breaks out between the Lannisters, Baratheons, and Starks. Meanwhile, in the East, the exiled Princess Daenerys Targaryen raises three dragons to reclaim her birthright. As political intrigue and betrayal consume the kingdoms, an ancient threat—the White Walkers—marches from the North. The series concludes with a massive battle for humanity and a controversial decision on who will ultimately rule the Seven Kingdoms."
-    },
-    {
-      "id": 108,
-      "title": "The Boys",
-      "year": 2019,
-      "seasons": 4,
-      "rating": 8.7,
-      "genre": ["Action", "Comedy", "Crime"],
-      "creator": "Eric Kripke",
-      "cast": ["Karl Urban", "Jack Quaid", "Antony Starr", "Erin Moriarty"],
-      "poster": "../assets/img/movies_series/the_boys.jpg",
-      "synopsis": "In a world where superheroes are corporate-owned celebrities who often abuse their powers, a group of vigilantes known as 'The Boys' set out to expose the truth. Led by Billy Butcher, who has a personal vendetta against the world's greatest hero, Homelander, the team uses grit and blackmail to fight back. Homelander, the leader of 'The Seven,' is a narcissistic sociopath hiding behind a patriotic image. As the corporate entity Vought International tries to integrate 'Supes' into the military, Hughie Campbell joins The Boys after his girlfriend is killed by a speedster. The series is a dark, gore-filled satire of superhero culture and corporate greed."
-    },
-    {
-      "id": 109,
-      "title": "Chernobyl",
-      "year": 2019,
-      "seasons": 1,
-      "rating": 9.4,
-      "genre": ["Drama", "History", "Thriller"],
-      "creator": "Craig Mazin",
-      "cast": ["Jared Harris", "Stellan Skarsgård", "Emily Watson", "Paul Ritter"],
-      "poster": "../assets/img/movies_series/chernobyl.jpg",
-      "synopsis": "A dramatization of the 1986 nuclear disaster in the USSR, the series follows Valery Legasov, a Soviet inorganic chemist, and Boris Shcherbina, a Soviet politician, as they lead the response to the explosion at the Chernobyl Nuclear Power Plant. It details the initial denial by plant officials, the heroic sacrifices of first responders and miners, and the subsequent investigation into why the reactor exploded. The show serves as a grim warning about the 'cost of lies,' culminating in a tense trial where the flaws of the Soviet RBMK reactor design are revealed to the world, leading to political fallout and a desperate attempt to contain the radiation."
-    },
-    {
-      "id": 110,
-      "title": "The Bear",
-      "year": 2022,
-      "seasons": 3,
-      "rating": 8.6,
-      "genre": ["Comedy", "Drama"],
-      "creator": "Christopher Storer",
-      "cast": ["Jeremy Allen White", "Ebon Moss-Bachrach", "Ayo Edebiri", "Matty Matheson"],
-      "poster": "../assets/img/movies_series/the_bear.jpg",
-      "synopsis": "Carmy Berzatto, an elite fine-dining chef, returns home to Chicago to run his family's greasy beef sandwich shop after his brother's suicide. He inherits a mountain of debt, a rundown kitchen, and a recalcitrant staff who resent his changes. Carmy must balance the trauma of his brother's death with the high-stress environment of the kitchen, aided by a talented young sous-chef named Sydney. As they transform the shop into a high-end restaurant called 'The Bear,' the staff learns to trust one another, dealing with personal demons, financial ruin, and the relentless pursuit of perfection in the culinary world."
-    },
-    {
-      "id": 111,
-      "title": "Mindhunter",
-      "year": 2017,
-      "seasons": 2,
-      "rating": 8.6,
-      "genre": ["Crime", "Drama", "Mystery"],
-      "creator": "Joe Penhall",
-      "cast": ["Jonathan Groff", "Holt McCallany", "Anna Torv", "Cameron Britton"],
-      "poster": "../assets/img/movies_series/mindhunter.jpg",
-      "synopsis": "In the late 1970s, FBI agents Holden Ford and Bill Tench revolutionize criminal science by interviewing imprisoned serial killers to understand how they think. Assisted by psychologist Wendy Carr, they develop the concept of 'profiling' to solve ongoing cases. The series features chilling, dialogue-heavy encounters with real-life killers like Edmund Kemper and Charles Manson. As the agents delve deeper into the darkest corners of the human psyche, the work begins to take a toll on their personal lives and mental health, highlighting the thin line between the hunters and the hunted in the early days of the FBI's Behavioral Science Unit."
-    },
-    {
-      "id": 112,
-      "title": "Arcane",
+      "id": 1002,
+      "title": "The White Lotus",
       "year": 2021,
-      "seasons": 1,
-      "rating": 9.0,
-      "genre": ["Animation", "Action", "Adventure"],
-      "creator": "Christian Linke & Alex Yee",
-      "cast": ["Hailee Steinfeld", "Ella Purnell", "Kevin Alejandro", "Jason Spisak"],
-      "poster": "../assets/img/movies_series/arcane.jpg",
-      "synopsis": "Set in the twin cities of Piltover and Zaun, the story explores the origins of two sisters, Vi and Powder (later Jinx). Piltover is a gleaming city of progress, while Zaun is a polluted underground. Following a failed heist, the sisters are separated, with Vi becoming a hardened fighter and Powder being taken in by the villainous Silco, who transforms her into a chaotic agent of destruction. As a new technology called Hextech allows anyone to harness magical energy, the political tensions between the cities reach a breaking point. The sisters find themselves on opposite sides of a brewing war that threatens to destroy everything they once loved."
-    },
-    {
-      "id": 113,
-      "title": "The Crown",
-      "year": 2016,
-      "seasons": 6,
-      "rating": 8.6,
-      "genre": ["Biography", "Drama", "History"],
-      "creator": "Peter Morgan",
-      "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton", "Matt Smith"],
-      "poster": "../assets/img/movies_series/the_crown.jpg",
-      "synopsis": "Spanning several decades, this historical drama follows the life and reign of Queen Elizabeth II. Beginning with her marriage to Prince Philip and her unexpected ascension to the throne following her father's death, the series depicts the personal and political challenges she faced. Each set of two seasons features a new cast to reflect the aging of the royal family. Major events include the Suez Crisis, the rise of Margaret Thatcher, and the tragic marriage and death of Princess Diana. The show explores the tension between the Queen's private identity and her public duty as the symbol of the British Monarchy in a rapidly changing world."
-    },
-    {
-      "id": 114,
-      "title": "Black Mirror",
-      "year": 2011,
-      "seasons": 6,
-      "rating": 8.7,
-      "genre": ["Sci-Fi", "Drama", "Thriller"],
-      "creator": "Charlie Brooker",
-      "cast": ["Daniel Kaluuya", "Bryce Dallas Howard", "Jon Hamm", "Aaron Paul"],
-      "poster": "../assets/img/movies_series/black_mirror.jpg",
-      "synopsis": "An anthology series that serves as a dark, satirical commentary on modern society's relationship with technology. Each episode features a standalone story set in a near-future or alternate reality where a specific innovation—such as social media ratings, memory-recording chips, or simulated afterlives—leads to disturbing consequences. The 'black mirror' of the title refers to the cold, dark screens of our smartphones and computers. Themes of privacy, obsession, and the erosion of human connection run throughout the series, often ending with shocking twists that force the viewer to question their own reliance on the digital world."
-    },
-    {
-      "id": 115,
-      "title": "The Office",
-      "year": 2005,
-      "seasons": 9,
-      "rating": 9.0,
-      "genre": ["Comedy"],
-      "creator": "Greg Daniels",
-      "cast": ["Steve Carell", "Rainn Wilson", "John Krasinski", "Jenna Fischer"],
-      "poster": "../assets/img/movies_series/the_office.jpg",
-      "synopsis": "A mockumentary following the daily lives of employees at the Dunder Mifflin Paper Company in Scranton, Pennsylvania. Led by the well-meaning but socially inept regional manager Michael Scott, the staff navigates boring meetings, pranks, and workplace romances. Central to the show is the 'will-they-won't-they' relationship between salesman Jim Halpert and receptionist Pam Beesly, as well as the eccentric antics of Dwight Schrute, a beet-farming assistant to the regional manager. Despite the mundane setting, the series captures the heart and humor of office life, building a family dynamic among its quirky characters over nine seasons."
-    },
-    {
-      "id": 116,
-      "title": "Severance",
-      "year": 2022,
-      "seasons": 1,
-      "rating": 8.7,
-      "genre": ["Sci-Fi", "Drama", "Mystery"],
-      "creator": "Dan Erickson",
-      "cast": ["Adam Scott", "Britt Lower", "Patricia Arquette", "John Turturro"],
-      "poster": "../assets/img/movies_series/severance.jpg",
-      "synopsis": "Mark Scout works at Lumon Industries, a mysterious corporation that uses a 'severance' procedure to surgically divide the memories of its employees between their work and personal lives. When Mark is at the office, he has no memory of his outside life, and when he is at home, he has no memory of his work. This creates two distinct personalities: the 'Innie' and the 'Outie.' As a new coworker, Helly, rebels against the system and a former colleague reaches out to Mark in the outside world, he begins to uncover a conspiracy regarding Lumon's true purpose. The series explores the dark side of work-life balance and the nature of identity."
-    },
-    {
-      "id": 117,
-      "title": "Peaky Blinders",
-      "year": 2013,
-      "seasons": 6,
-      "rating": 8.8,
-      "genre": ["Crime", "Drama"],
-      "creator": "Steven Knight",
-      "cast": ["Cillian Murphy", "Paul Anderson", "Helen McCrory", "Tom Hardy"],
-      "poster": "../assets/img/movies_series/peaky_blinders.jpg",
-      "synopsis": "In the aftermath of World War I, Tommy Shelby, the ambitious and cold-blooded leader of the Peaky Blinders gang, seeks to expand his criminal empire in Birmingham. The gang is known for sewing razor blades into the peaks of their caps. Tommy's plans are complicated by the arrival of Inspector Chester Campbell, a ruthless policeman sent from Belfast to clean up the city. As Tommy transitions from illegal gambling and racketeering into legitimate business and eventually politics, he must contend with rival gangs, the IRA, and the rising threat of fascism. The series is a stylish, atmospheric look at the criminal underworld and the trauma of war."
-    },
-    {
-      "id": 118,
-      "title": "Ted Lasso",
-      "year": 2020,
       "seasons": 3,
-      "rating": 8.8,
-      "genre": ["Comedy", "Drama", "Sport"],
-      "creator": "Jason Sudeikis & Bill Lawrence",
-      "cast": ["Jason Sudeikis", "Hannah Waddingham", "Brett Goldstein", "Juno Temple"],
-      "poster": "../assets/img/movies_series/ted_lasso.jpg",
-      "synopsis": "Ted Lasso, an optimistic American football coach with no experience in soccer, is hired to manage AFC Richmond, a struggling English Premier League team. The team's owner, Rebecca Welton, hired him hoping he would fail as revenge against her ex-husband. However, Ted's relentless positivity, charm, and focus on character over winning begin to win over the skeptical players, fans, and Rebecca herself. Assisted by the quiet but observant Coach Beard, Ted navigates the pressures of professional sports while helping his players, like the grumpy veteran Roy Kent and the arrogant star Jamie Tartt, become better versions of themselves."
+      "rating": 7.6,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Mystery"
+      ],
+      "creator": "Mike White",
+      "cast": [
+        "Leslie Bibb",
+        "Carrie Coon",
+        "Walton Goggins",
+        "Sarah Catherine Hook"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
+      "synopsis": "Follow the exploits of various guests and employees at an exclusive tropical resort over the span of a week as with each passing day, a darker complexity emerges in these picture-perfect travelers, the hotel’s cheerful employees and the idyllic locale itself."
     },
     {
-      "id": 119,
-      "title": "The Mandalorian",
-      "year": 2019,
-      "seasons": 3,
-      "rating": 8.7,
-      "genre": ["Action", "Adventure", "Sci-Fi"],
-      "creator": "Jon Favreau",
-      "cast": ["Pedro Pascal", "Carl Weathers", "Giancarlo Esposito", "Katee Sackhoff"],
-      "poster": "../assets/img/movies_series/mandalorian.jpg",
-      "synopsis": "Set five years after the fall of the Empire, a lone Mandalorian bounty hunter named Din Djarin takes a job from a mysterious client to retrieve a high-value target. He discovers the target is a child of the same species as Yoda, capable of using the Force. Instead of handing the child over, the Mandalorian goes on the run to protect him. Their journey across the galaxy brings them into contact with former rebels, imperial remnants led by Moff Gideon, and legendary figures like Ahsoka Tano. The series explores Mandalorian culture, the 'Way of the Mandalore,' and the bond between the warrior and the child, known as Grogu."
+      "id": 1003,
+      "title": "Shōgun",
+      "year": 2024,
+      "seasons": 1,
+      "rating": 8.4,
+      "genre": [
+        "Drama",
+        "War & Politics"
+      ],
+      "creator": "Rachel Kondo",
+      "cast": [
+        "Hiroyuki Sanada",
+        "Cosmo Jarvis",
+        "Anna Sawai",
+        "Tadanobu Asano"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      "synopsis": "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village."
     },
     {
-      "id": 120,
-      "title": "Beef",
+      "id": 1004,
+      "title": "Ninja Boy Rantaro",
+      "year": 1993,
+      "seasons": 27,
+      "rating": 6.5,
+      "genre": [
+        "Comedy",
+        "Action & Adventure",
+        "Kids",
+        "Animation",
+        "Family"
+      ],
+      "creator": "Soubee Amako",
+      "cast": [],
+      "poster": "https://image.tmdb.org/t/p/w500/fzNiSp0HhCthOTYu9IYWlPPa7fU.jpg",
+      "synopsis": "Rantarō, Shinbei and Kirimaru are ninja  apprentices in the Ninja Gakuen, where first grade ones are called  \"Nintamas\". They must learn  everything a ninja must know, but as for our heroes, money, food or  playing are more interesting. The series show the everyday adventures of  our heroes."
+    },
+    {
+      "id": 1005,
+      "title": "Star Trek: The Next Generation",
+      "year": 1987,
+      "seasons": 7,
+      "rating": 8.4,
+      "genre": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "creator": "Gene Roddenberry",
+      "cast": [
+        "Patrick Stewart",
+        "Jonathan Frakes",
+        "Brent Spiner",
+        "LeVar Burton"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/vkLzXddgUKH5VcpnYiRzpJFrZhz.jpg",
+      "synopsis": "Follow the intergalactic adventures of Capt. Jean-Luc Picard and his loyal crew aboard the all-new USS Enterprise NCC-1701D, as they explore new worlds."
+    },
+    {
+      "id": 1006,
+      "title": "Shōgun",
+      "year": 2024,
+      "seasons": 1,
+      "rating": 8.4,
+      "genre": [
+        "Drama",
+        "War & Politics"
+      ],
+      "creator": "Rachel Kondo",
+      "cast": [
+        "Hiroyuki Sanada",
+        "Cosmo Jarvis",
+        "Anna Sawai",
+        "Tadanobu Asano"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      "synopsis": "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village."
+    },
+    {
+      "id": 1007,
+      "title": "The Late Show with Stephen Colbert",
+      "year": 2015,
+      "seasons": 11,
+      "rating": 6.2,
+      "genre": [
+        "Comedy",
+        "Talk"
+      ],
+      "creator": "Stephen Colbert",
+      "cast": [
+        "Stephen Colbert"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+      "synopsis": "Stephen Colbert brings his signature satire and comedy to The Late Show with Stephen Colbert, the #1 show in late night, where he talks with an eclectic mix of guests about what is new and relevant in the worlds of politics, entertainment, business, music, technology, and more. Featuring bandleader Jon Batiste with his band Stay Human, the Emmy Award-nominated show is broadcast from the historic Ed Sullivan Theater."
+    },
+    {
+      "id": 1008,
+      "title": "Late Show with David Letterman",
+      "year": 1993,
+      "seasons": 22,
+      "rating": 6.4,
+      "genre": [
+        "Talk",
+        "Comedy"
+      ],
+      "creator": "Unknown",
+      "cast": [
+        "David Letterman",
+        "Paul Shaffer",
+        "Alan Kalter"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/3wzEg2MknkM5AGytRrb1DRife6F.jpg",
+      "synopsis": "Late Show with David Letterman is an American late-night talk show hosted by David Letterman on CBS. The show debuted on August 30, 1993, and is produced by Letterman's production company, Worldwide Pants Incorporated and CBS Television Studios. The show's music director and band-leader of the house band, the CBS Orchestra, is Paul Shaffer. The head writer is Matt Roberts and the announcer is Alan Kalter. Of the major U.S. late-night programs, Late Show ranks second in cumulative average viewers over time and third in number of episodes over time. The show leads other late night shows in ad revenue with $271 million in 2009.\n\nIn most U.S. markets the show airs at 11:35 p.m. Eastern/Pacific time, but is recorded Monday through Wednesday at 4:30 p.m., and Thursdays at 3:30 p.m and 6:00 p.m. The second Thursday episode usually airs on Friday of that week.\n\nIn 2002, Late Show with David Letterman was ranked No. 7 on TV Guide's 50 Greatest TV Shows of All Time. CBS has a contract with Worldwide Pants to continue the show through 2014; by then, Letterman will surpass Johnny Carson as the longest tenured late-night talk show host."
+    },
+    {
+      "id": 1009,
+      "title": "Dark Angel",
+      "year": 2000,
+      "seasons": 2,
+      "rating": 7.5,
+      "genre": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "creator": "James Cameron",
+      "cast": [
+        "Jessica Alba",
+        "Michael Weatherly",
+        "Valarie Rae Miller",
+        "J.C. MacKenzie"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/tAn7OUmhofgTnjEjesilFhIovVY.jpg",
+      "synopsis": "Super soldier Max Guevera tries to live a normal life in post-apocalyptic Seattle while eluding capture by government agents from the covert biotech facility she escaped from as a child and searching for her genetically-enhanced brothers and sisters who have dispersed after escape."
+    },
+    {
+      "id": 1010,
+      "title": "Hell's Paradise",
       "year": 2023,
       "seasons": 1,
-      "rating": 8.0,
-      "genre": ["Comedy", "Drama"],
-      "creator": "Lee Sung Jin",
-      "cast": ["Steven Yeun", "Ali Wong", "Joseph Lee", "Young Mazino"],
-      "poster": "../assets/img/movies_series/beef.jpg",
-      "synopsis": "Danny Cho, a failing contractor with a chip on his shoulder, and Amy Lau, a self-made entrepreneur with a seemingly perfect life, are involved in a road rage incident in a parking lot. Instead of letting it go, both characters allow the incident to consume them, leading to a series of escalating retaliations that threaten to destroy their businesses, families, and sanity. As their lives become increasingly intertwined, the show explores the hidden anger and dissatisfaction within both characters, revealing that their 'beef' is a projection of their own internal struggles with class, expectation, and the search for meaning in modern life."
+      "rating": 8.2,
+      "genre": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "creator": "Yuji Kaku",
+      "cast": [
+        "Chiaki Kobayashi",
+        "Yumiri Hanamori",
+        "Ryohei Kimura",
+        "Rie Takahashi"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/1V9I7SvZbYoMbSvdtnlkkq9SB1k.jpg",
+      "synopsis": "For a chance at a pardon, a ninja assassin joins other condemned criminals on a journey to a mysterious island to retrieve an elixir of immortality."
+    },
+    {
+      "id": 1011,
+      "title": "Chiikawa",
+      "year": 2022,
+      "seasons": 1,
+      "rating": 8.3,
+      "genre": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Kids",
+        "Sci-Fi & Fantasy"
+      ],
+      "creator": "Unknown",
+      "cast": [
+        "Haruka Aoki",
+        "Ari Ozawa",
+        "Makoto Tanaka",
+        "Yuka Iguchi"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/cXm3mxmlOWJZAyn5fqFI9JpARa3.jpg",
+      "synopsis": "The story follows the sometimes happy, sometimes sad, and a tad stressful daily life of \"some sort of small, cute creature\" (Nanka Chiisakute Kawaii Yatsu) known as Chiikawa. Chiikawa enjoys delicious food with bees and rabbits, toils hard every day for the rewards of work, and still maintains a smile."
+    },
+    {
+      "id": 1012,
+      "title": "Death in Paradise",
+      "year": 2011,
+      "seasons": 15,
+      "rating": 7.5,
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "creator": "Robert Thorogood",
+      "cast": [
+        "Don Warrington",
+        "Élisabeth Bourgine",
+        "Shantol Jackson",
+        "Don Gilet"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/u7t6vCyqAdD5hE4eEfTrZmVljDi.jpg",
+      "synopsis": "A brilliant but idiosyncratic British detective and his resourceful local team solve baffling murder mysteries on the fictional Caribbean island of Saint Marie."
+    },
+    {
+      "id": 1013,
+      "title": "Prison Break",
+      "year": 2005,
+      "seasons": 5,
+      "rating": 8.1,
+      "genre": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "creator": "Paul T. Scheuring",
+      "cast": [
+        "Wentworth Miller",
+        "Dominic Purcell",
+        "Sarah Wayne Callies",
+        "Paul Adelstein"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/wnmNPaLvhnMeOqnWlhNkYCZxtda.jpg",
+      "synopsis": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside out."
+    },
+    {
+      "id": 1014,
+      "title": "Glee",
+      "year": 2009,
+      "seasons": 6,
+      "rating": 6.8,
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "creator": "Ryan Murphy",
+      "cast": [
+        "Lea Michele",
+        "Chris Colfer",
+        "Matthew Morrison",
+        "Jane Lynch"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w500/62T2vsZYTje3KhdCsiLR1K1RFJW.jpg",
+      "synopsis": "In this musical comedy, optimistic high school teacher Will Schuester tries to refuel his own passion while reinventing the high school's glee club and challenging a group of outcasts to realize their star potential as they strive to outshine their singing competition while navigating the cruel halls of McKinley High."
+    },
+    {
+      "id": 1015,
+      "title": "Kangsi Coming",
+      "year": 2004,
+      "seasons": 14,
+      "rating": 7.7,
+      "genre": [
+        "Talk",
+        "Reality"
+      ],
+      "creator": "Zhan Ren Xiong",
+      "cast": [],
+      "poster": "https://image.tmdb.org/t/p/w500/bVWEPDZHRSdd7voVled6CLLq1zB.jpg",
+      "synopsis": "KangXi Lai Le is a Taiwanese variety-comedy talk show hosted by variety show veterans Dee Hsu and Kevin Tsai. It was produced by Chungta Production from 2004 to 2009, and currently produced by Gold Star Production along with the writing and production staff of GUESS. It was first broadcast on 5 January 2004 and currently airs Monday to Friday at 22:00-23:00 on cable TV CTi Variety. In most episodes, the hosts interview a panel of celebrities in various and controversial topics while employing their signature comedic bantering. It is broadcast in Hong Kong on ATV Home under the name of Variety Show of Mr Con and Ms Csi.\n\nAlthough it is broadcast in Taiwan, the show is very successful and popular among Chinese speaking audiences across the world who watch uploaded re-runs over the internet or through bootleg DVDs. The show has been mentioned in other Taiwanese variety and talk shows, mainly from presenters who appeared on the show."
     }
   ]
 }

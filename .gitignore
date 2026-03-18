@@ -1,0 +1,10 @@
+# Ignore the environment variables file
+.env
+
+# If you used other names like media.env or .mediaenv, add them too:
+media.env
+.mediaenv
+
+# Ignore Python cache files (standard practice)
+__pycache__/
+*.pyc
