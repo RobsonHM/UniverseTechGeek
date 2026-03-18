@@ -102,7 +102,7 @@ function renderBookDetails(book) {
     if (book.cover) {
         const coverContainer = document.getElementById('book-cover-container');
         if (coverContainer) {
-            coverContainer.innerHTML = `<img src="${book.cover}" alt="${book.title}" class="w-full h-full object-cover">`;
+            coverContainer.innerHTML = `<img src="${book.cover}" alt="${book.title}" class="w-full h-full book-cover-detail2">`;
         }
     }
 }

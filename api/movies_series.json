@@ -469,7 +469,49 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w500/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg",
       "synopsis": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world."
-    }
+    },
+    {
+    "id": 24,
+    "title": "Interstellar",
+    "year": 2014,
+    "rating": 8.7,
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ],
+    "duration": "169 min",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Ellen Burstyn"
+    ],
+    "poster": "../assets/img/movies_series/interstellar1.jpg",
+    "synopsis": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage."
+  },
+  {
+    "id": 25,
+    "title": "Alien: Romulus",
+    "year": 2024,
+    "rating": 7.2,
+    "genre": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "duration": "119 min",
+    "director": "Fede Álvarez",
+    "cast": [
+      "Cailee Spaeny",
+      "David Jonsson",
+      "Archie Renaux",
+      "Isabela Merced"
+    ],
+    "poster": "../assets/img/movies_series/alien_romulus1.jpg",
+    "synopsis": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe."
+  }
   ],
   "series": [
     {

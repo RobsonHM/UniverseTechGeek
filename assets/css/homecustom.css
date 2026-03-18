@@ -723,6 +723,15 @@ input[type="text"], select {
     background-color: var(--gray-100); /* Placeholder color while loading */
 }
 
+.book-cover-detail2 {
+    width: 100%;
+    max-width: 300px;
+    /* Proporção de livro comum (2 de largura para 3 de altura) */
+    aspect-ratio: 2 / 3; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 /* If you also want to fix the sizes in the main list/grid: */
 .book-item img {
     width: 100%;
