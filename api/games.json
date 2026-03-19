@@ -200,7 +200,7 @@
     "plataformas": "PC, PS5, XSX",
     "screenshots": [
       "../assets/img/games/re9.jpg",
-      "../assets/img/games/re9-2.png",
+      "../assets/img/games/re9-2.jpg",
       "../assets/img/games/re9-3.jpg",
       "../assets/img/games/re9-4.jpg"
     ],
@@ -241,10 +241,10 @@
     "lancamento": "March 12, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
     "screenshots": [
-      "../assets/img/games/fatalframe-1.jpg",
-      "../assets/img/games/fatalframe-2.jpg",
-      "../assets/img/games/fatalframe-3.jpg",
-      "../assets/img/games/fatalframe-4.jpg"
+      "../assets/img/games/Fatal_Frame2R_01.jpg",
+      "../assets/img/games/Fatal_Frame2R_02.jpg",
+      "../assets/img/games/Fatal_Frame2R_03.jpg",
+      "../assets/img/games/Fatal_Frame2R_04.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 11", "cpu": "i5-8400", "ram": "16 GB", "gpu": "GTX 1050 Ti", "armazenamento": "30 GB" },
@@ -262,10 +262,10 @@
     "lancamento": "March 19, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, macOS",
     "screenshots": [
-      "../assets/img/games/crimson-1.jpg",
-      "../assets/img/games/crimson-2.jpg",
-      "../assets/img/games/crimson-3.jpg",
-      "../assets/img/games/crimson-4.jpg"
+      "../assets/img/games/Crimson_desert_01.jpg",
+      "../assets/img/games/Crimson_desert_02.jpg",
+      "../assets/img/games/Crimson_desert_03.jpg",
+      "../assets/img/games/Crimson_desert_04.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-8500", "ram": "16 GB", "gpu": "GTX 1060", "armazenamento": "135 GB" },
@@ -283,15 +283,161 @@
     "lancamento": "April 24, 2026",
     "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
     "screenshots": [
-      "../assets/img/games/pragmata-1.jpg",
-      "../assets/img/games/pragmata-2.jpg",
-      "../assets/img/games/pragmata-3.jpg",
-      "../assets/img/games/pragmata-4.jpg"
+      "../assets/img/games/pragmata_01.jpg",
+      "../assets/img/games/pragmata_02.jpg",
+      "../assets/img/games/pragmata_03.jpg",
+      "../assets/img/games/pragmata_04.jpg"
     ],
     "requisitos": {
       "minimos": { "so": "Win 10", "cpu": "i5-10400", "ram": "16 GB", "gpu": "GTX 1660 Super", "armazenamento": "60 GB" },
       "recomendados": { "so": "Win 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "60 GB" }
     }
+  },
+  {
+    "id": 15,
+    "titulo": "Phantom Blade Zero",
+    "nota": 9.0,
+    "sinopse": "In a dark world where steampunk meets ancient martial arts, an elite assassin framed for betrayal has only 66 days to live. Embark on a blood-soaked journey of vengeance and redemption, engaging in lightning-fast combat against grotesque mechanical monstrosities and legendary warriors in this 'Kungfupunk' masterpiece.",
+    "tags": ["Action", "RPG", "Martial Arts"],
+    "desenvolvedora": "S-GAME",
+    "editora": "S-GAME",
+    "lancamento": "2025",
+    "plataformas": "PC, PS5",
+    "screenshots": [
+      "../assets/img/games/phanton_blade_01.jpg",
+      "../assets/img/games/phanton_blade_02.jpg",
+      "../assets/img/games/phanton_blade_03.jpg",
+      "../assets/img/games/phanton_blade_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-9400F", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "100 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-11700K", "ram": "32 GB", "gpu": "RTX 3080", "armazenamento": "100 GB" }
+    }
+  },
+  {
+    "id": 16,
+    "titulo": "Silent Hill 2 Remake",
+    "nota": 9.2,
+    "sinopse": "Driven by a mysterious letter from his late wife, James Sunderland returns to the fog-shrouded town of Silent Hill. What he finds is a living nightmare where personal trauma and guilt manifest as twisted creatures. This remake breathes new life into the psychological horror legend with haunting visuals and an oppressive, modern atmosphere.",
+    "tags": ["Horror", "Psychological", "Survival"],
+    "desenvolvedora": "Bloober Team",
+    "editora": "Konami",
+    "lancamento": "October 8, 2024",
+    "plataformas": "PC, PS5",
+    "screenshots": [
+      "../assets/img/games/silent_hill2_01.jpg",
+      "../assets/img/games/silent_hill2_02.jpg",
+      "../assets/img/games/silent_hill2_03.jpg",
+      "../assets/img/games/silent_hill2_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8400", "ram": "12 GB", "gpu": "GTX 1070", "armazenamento": "50 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2080", "armazenamento": "50 GB" }
+    }
+  },
+  {
+    "id": 17,
+    "titulo": "Hellraiser",
+    "nota": 8.5,
+    "sinopse": "Solve the Lament Configuration and open a gateway to a dimension of unfathomable pleasure and pain. In this visceral survival horror experience, players must evade the relentless Cenobites while navigating shifting corridors of flesh and steel. Can you survive the sights you are about to see, or will your soul be torn apart?",
+    "tags": ["Horror", "Gore", "Survival"],
+    "desenvolvedora": "TBA",
+    "editora": "TBA",
+    "lancamento": "TBA",
+    "plataformas": "PC, PS5, Xbox Series X/S",
+    "screenshots": [
+      "../assets/img/games/hellraiser_01.jpg",
+      "../assets/img/games/hellraiser_02.jpg",
+      "../assets/img/games/hellraiser_03.jpg",
+      "../assets/img/games/hellraiser_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-10400", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "45 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "45 GB" }
+    }
+  },
+  {
+    "id": 18,
+    "titulo": "Grand Theft Auto VI",
+    "nota": 9.9,
+    "sinopse": "Welcome to Leonida, home to the neon-soaked streets of Vice City and beyond. In a story of love, betrayal, and the pursuit of the ultimate score, follow a duo of outlaws as they navigate the most immersive and chaotic open world ever built. In a land defined by excess, crime is the only way to reach the top.",
+    "tags": ["Open World", "Action", "Crime"],
+    "desenvolvedora": "Rockstar North",
+    "editora": "Rockstar Games",
+    "lancamento": "Fall 2025",
+    "plataformas": "PS5, Xbox Series X/S",
+    "screenshots": [
+      "../assets/img/games/GTA_6_01.jpg",
+      "../assets/img/games/GTA_6_02.jpg",
+      "../assets/img/games/GTA_6_03.jpg",
+      "../assets/img/games/GTA_6_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2070", "armazenamento": "150 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i9-13900K", "ram": "32 GB", "gpu": "RTX 4080", "armazenamento": "150 GB" }
+    }
+  },
+  {
+    "id": 19,
+    "titulo": "Forza Horizon 6",
+    "nota": 9.4,
+    "sinopse": "The Horizon Festival reaches new heights in a sprawling world of breathtaking diversity. Whether tearing through dense jungles or drifting across sun-bleached coasts, experience the pinnacle of automotive culture with hyper-realistic weather effects, thousands of customizable cars, and an endless social sandbox for drivers of all levels.",
+    "tags": ["Racing", "Simulation", "Open World"],
+    "desenvolvedora": "Playground Games",
+    "editora": "Xbox Game Studios",
+    "lancamento": "2025",
+    "plataformas": "PC, Xbox Series X/S",
+    "screenshots": [
+      "../assets/img/games/Forza_6_01.jpg",
+      "../assets/img/games/Forza_6_02.jpg",
+      "../assets/img/games/Forza_6_03.jpg",
+      "../assets/img/games/Forza_6_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8400", "ram": "8 GB", "gpu": "GTX 1070", "armazenamento": "110 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-10700K", "ram": "16 GB", "gpu": "RTX 3080", "armazenamento": "110 GB" }
+    }
+  },
+  {
+    "id": 20,
+    "titulo": "Final Fantasy VII Rebirth",
+    "nota": 9.6,
+    "sinopse": "Escape the dystopian city of Midgar and step into a vast, vibrant world in the second installment of the Final Fantasy VII remake project. Cloud and his allies must hunt down the legendary Sephiroth while confronting their own destinies. A masterpiece of storytelling, blending real-time action with strategic depth in a journey beyond fate.",
+    "tags": ["RPG", "Story Rich", "Action"],
+    "desenvolvedora": "Square Enix",
+    "editora": "Square Enix",
+    "lancamento": "February 29, 2024",
+    "plataformas": "PS5, PC",
+    "screenshots": [
+      "../assets/img/games/FF7_01.jpg",
+      "../assets/img/games/FF7_02.jpg",
+      "../assets/img/games/FF7_03.jpg",
+      "../assets/img/games/FF7_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8400", "ram": "16 GB", "gpu": "GTX 1070", "armazenamento": "150 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "150 GB" }
+    }
+  },
+  {
+    "id": 21,
+    "titulo": "Death Stranding 2: On The Beach",
+    "nota": 9.3,
+    "sinopse": "The legendary Hideo Kojima returns with a sequel that redefines connection. As Sam Porter Bridges and a new cast of allies venture beyond the UCA, they face a world reshaped by the Death Stranding. Navigate haunting landscapes and unravel the mystery of the 'Drawbridge' initiative in a genre-defying odyssey about what it means to truly belong.",
+    "tags": ["Adventure", "Sci-Fi", "Atmospheric"],
+    "desenvolvedora": "Kojima Productions",
+    "editora": "Sony Interactive Entertainment",
+    "lancamento": "2025",
+    "plataformas": "PS5",
+    "screenshots": [
+      "../assets/img/games/death_strading2_01.jpg",
+      "../assets/img/games/death_strading2_02.jpg",
+      "../assets/img/games/death_strading2_03.jpg",
+      "../assets/img/games/death_strading2_04.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8600K", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "100 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-12700K", "ram": "16 GB", "gpu": "RTX 3080", "armazenamento": "100 GB" }
+    }
   }
-  
 ]

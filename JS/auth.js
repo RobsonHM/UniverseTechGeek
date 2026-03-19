@@ -3,57 +3,57 @@ async function NewUser(name, email, password) {
     try {
         db.run("INSERT INTO users (user, email, password) VALUES (?, ?, ?)", [name, email, password]);
         db.persist();
-        alert("Usuário criado com sucesso!");
+        alert("User created successfully!");
     } catch (e) {
-        alert("Erro: Este usuário já existe!");
+        alert("Error: This user already exists!");
     }
 }
 
 async function loginUser() {
-    // 1. Pega os valores dos inputs do seu HTML
+    // 1. Get the input values from your HTML
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value.trim();
 
     if (!email || !password) {
-        alert("Por favor, preencha todos os campos.");
+        alert("Please fill in all fields.");
         return;
     }
 
     try {
-        // 2. Garante que o banco de dados foi carregado
+        // 2. Ensure the database is loaded
         if (!window.db) {
             await initDatabase();
         }
 
-        // 3. Busca o usuário no SQLite
-        // res[0].values retornará os dados se encontrar o e-mail e a senha exatos
+        // 3. Search for the user in SQLite
+        // res[0].values will return the data if it finds the exact email and password
         const res = db.exec("SELECT * FROM users WHERE email = ? AND password = ?", [email, password]);
 
         if (res.length > 0 && res[0].values.length > 0) {
-            // Sucesso! 
-            const usuario = res[0].values[0]; // Pega a primeira linha encontrada
-            const nomeDoUsuario = usuario[1]; // Supondo que o nome é a segunda coluna
+            // Success! 
+            const usuario = res[0].values[0]; // Get the first row found
+            const nomeDoUsuario = usuario[1]; // Assuming the name is the second column
 
-            // Salva na sessão do navegador (Session Storage)
+            // Save in the browser session (Session Storage)
             sessionStorage.setItem("userLoggedIn", nomeDoUsuario);
             
-            alert("Login realizado com sucesso! Bem-vindo, " + nomeDoUsuario);
+            alert("Login successful! Welcome, " + nomeDoUsuario);
             
-            // 4. Redireciona para a home
+            // 4. Redirect to home
             window.location.href = "../home.html"; 
         } else {
-            // Se não encontrar nada no SELECT
-            alert("E-mail ou senha incorretos.");
+            // If nothing is found in the SELECT
+            alert("Incorrect email or password.");
         }
     } catch (e) {
-        console.error("Erro ao fazer login:", e);
-        alert("Ocorreu um erro técnico. Verifique se você já se cadastrou.");
+        console.error("Error during login:", e);
+        alert("A technical error occurred. Please check if you have already registered.");
     }
-    // Dentro da lógica de sucesso do login
+    // Inside the successful login logic
     const userdata = res[0].values[0]; 
-    const username = userdata[1]; // Índice 1 é a coluna 'user' da sua tabela
+    const username = userdata[1]; // Index 1 is the 'user' column in your table
 
-    // Vamos padronizar o nome da chave para 'userLoggedIn'
+    // Let's standardize the key name to 'userLoggedIn'
     sessionStorage.setItem("userLoggedIn", username);
 }
 
@@ -64,9 +64,9 @@ function logout() {
     // Opcional: Se quiser limpar TUDO da sessão (cuidado se houver outros dados)
     // sessionStorage.clear();
 
-    alert("Você saiu do sistema.");
+    alert("You have logged out.");
 
-    // 2. Redireciona para a home ou login
+    // 2. Redirect to home or login
     window.location.href = "home.html"; 
 }
 

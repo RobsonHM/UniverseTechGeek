@@ -92,7 +92,7 @@ function submitReview() {
     // 1. Verificar login
     const userLoggedIn = sessionStorage.getItem("userLoggedIn");
     if (!userLoggedIn) {
-        alert("Faça login para comentar.");
+        alert("You need to log in to comment.");
         window.location.href = "login.html";
         return;
     }
@@ -103,7 +103,7 @@ function submitReview() {
 
     // 3. Validações de preenchimento
     if (selectedRating === null || text === "") {
-        alert("Selecione uma nota e escreva algo.");
+        alert("Select a rating and write something.");
         return;
     }
 
@@ -115,16 +115,16 @@ function submitReview() {
                 [currentItemId, currentCategory, selectedRating, text, userLoggedIn]
             );
             window.db.persist();
-            console.log("Review salva com sucesso!");
+            console.log("Review saved successfully!");
         } catch (e) {
-            console.error("Erro ao salvar no banco. Talvez precise limpar o localStorage?", e);
+            console.error("Error saving to the database. You might need to clear localStorage?", e);
         }
     }
 
-    // 5. Adicionar visualmente na tela
+    // 5. Add visually to the screen
     adicionarReviewNaTela(selectedRating, text, userLoggedIn);
 
-    // 6. Resetar o formulário
+    // 6. Reset the form
     selectedRating = null;
     document.querySelectorAll(".rating-btn").forEach(b => b.classList.remove("active"));
     if (reviewInput) reviewInput.value = "";

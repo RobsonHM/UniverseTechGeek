@@ -739,3 +739,41 @@ input[type="text"], select {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.rating-badge {
+background-color: var(--blue-600);
+padding: 10px 20px;
+border-radius: 8px;
+font-size: 24px;
+font-weight: 800;
+}
+.info-grid-item {
+border-bottom: 1px solid var(--gray-200);
+padding: 12px 0;
+display: flex;
+justify-content: space-between;
+}
+.requirement-card {
+background: var(--gray-100);
+padding: 20px;
+border-radius: 12px;
+border: 1px solid var(--gray-200);
+}
+/* Ajuste específico para a galeria lateral */
+.gallery-grid {
+display: grid;
+grid-template-columns: 1fr 200px;
+gap: 16px;
+}
+@media (max-width: 768px) {
+.gallery-grid {
+      grid-template-columns: 1fr;
+}
+.screenshots-stack {
+      flex-direction: row !important;
+      overflow-x: auto;
+}
+.screenshots-stack > div {
+      min-width: 150px;
+}
+}

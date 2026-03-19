@@ -7,31 +7,32 @@ async function NewUser() {
     const password = document.getElementById("password").value;
 
     if (!username || !email || !password) {
-        alert("Por favor, preencha todos os campos.");
+        alert("Please fill in all fields.");
         return;
     }
 
     try {
-        // 2. Garante que o banco está carregado
+        // 2. Ensure the database is loaded
         if (!window.db) {
             window.db = await initDatabase();
         }
 
-        // 3. Insere no SQLite
-        // IMPORTANTE: Verifique se sua tabela no database.js tem exatamente essas colunas
+        // 3. Insert into SQLite
+        // IMPORTANT: Make sure your table in database.js has exactly these columns
         db.run("INSERT INTO users (user, email, password) VALUES (?, ?, ?)", [username, email, password]);
         
-        // 4. Salva no LocalStorage do Mac
+        // 4. Save to LocalStorage
         db.persist();
 
-        alert("Cadastro realizado com sucesso!");
+        alert("Registration successful!");
         
-        // 5. Redireciona via JS (isso não gera erro 405)
+        // 5. Redirect via JS (this does not generate a 405 error)
         window.location.href = "login.html"; 
 
     } catch (e) {
-        console.error("Erro no SQLite:", e);
-        alert("Erro ao cadastrar. Verifique o console.");
+        console.error("SQLite error:", e);
+        alert("Error during registration. Check the console.");
+
     }
 }
 
