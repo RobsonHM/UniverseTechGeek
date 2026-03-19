@@ -741,11 +741,18 @@ input[type="text"], select {
 }
 
 .rating-badge {
-background-color: var(--blue-600);
+background-color: var(--gray-100);
 padding: 10px 20px;
 border-radius: 8px;
 font-size: 24px;
 font-weight: 800;
+width: 56px;
+height: 56px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--blue-600);
+
 }
 .info-grid-item {
 border-bottom: 1px solid var(--gray-200);
@@ -777,3 +784,27 @@ gap: 16px;
       min-width: 150px;
 }
 }
+
+.book-cover-dark {
+width: 100%;
+aspect-ratio: 2/3;
+background-color: #ffffff;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff;
+overflow: hidden;
+}
+
+.music-cover-dark {
+width: 100%;
+aspect-ratio: 1/1;
+background-color: #ffffff;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid #ffffff;
+overflow: hidden;
+}
+

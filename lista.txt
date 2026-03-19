@@ -1,0 +1,200 @@
+.
+├── 404.html
+├── JS
+│   ├── auth.js
+│   ├── book.js
+│   ├── bookinfo.js
+│   ├── database.js
+│   ├── games.js
+│   ├── movies_series.js
+│   ├── music.js
+│   ├── register.js
+│   └── review.js
+├── README.md
+├── api
+│   ├── books.json
+│   ├── games.json
+│   ├── movies_series.json
+│   └── music.json
+├── assets
+│   ├── css
+│   │   ├── globalcustom.css
+│   │   └── homecustom.css
+│   └── img
+│       ├── books
+│       │   ├── AbstractHearts.jpg
+│       │   ├── AlchemistDaughter.jpg
+│       │   ├── BeyondtheHorizon.jpg
+│       │   ├── BoneCarver.jpg
+│       │   ├── BotanySecrets.jpg
+│       │   ├── ClockworkConspiracy.jpg
+│       │   ├── ColdIronCrown.jpg
+│       │   ├── CopperSky.jpg
+│       │   ├── DigitalEmpire.jpg
+│       │   ├── EchoesOfEmerald.jpg
+│       │   ├── FracturedTide.jpg
+│       │   ├── HP1.jpg
+│       │   ├── HighRidge.jpg
+│       │   ├── LastApothecary.jpg
+│       │   ├── MidnightLibrary.jpg
+│       │   ├── NeonGraveyard.jpg
+│       │   ├── QuantumHearts.jpg
+│       │   ├── SiliconSoul.jpg
+│       │   ├── StarlightProtocol.jpg
+│       │   ├── TerminalVelocity.jpg
+│       │   ├── TheSilentForest.jpg
+│       │   ├── WeaverOfDreams.jpg
+│       │   └── WhispersofthePast.jpg
+│       ├── favicons
+│       │   ├── android-chrome-192x192.png
+│       │   ├── android-chrome-512x512.png
+│       │   ├── apple-touch-icon.png
+│       │   ├── favicon-16x16.png
+│       │   ├── favicon-32x32.png
+│       │   ├── favicon.ico
+│       │   └── site.webmanifest
+│       ├── games
+│       │   ├── Crimson_desert_01.jpg
+│       │   ├── Crimson_desert_02.jpg
+│       │   ├── Crimson_desert_03.jpg
+│       │   ├── Crimson_desert_04.jpg
+│       │   ├── FF7.jpg
+│       │   ├── FF7_01.jpg
+│       │   ├── FF7_02.jpg
+│       │   ├── FF7_03.jpg
+│       │   ├── FF7_04.jpg
+│       │   ├── Fatal_Frame2R_01.jpg
+│       │   ├── Fatal_Frame2R_02.jpg
+│       │   ├── Fatal_Frame2R_03.jpg
+│       │   ├── Fatal_Frame2R_04.jpg
+│       │   ├── Forza6.jpg
+│       │   ├── Forza_6_01.jpg
+│       │   ├── Forza_6_02.jpg
+│       │   ├── Forza_6_03.jpg
+│       │   ├── Forza_6_04.jpg
+│       │   ├── GTA6.jpg
+│       │   ├── GTA_6_01.jpg
+│       │   ├── Hellraiser.jpg
+│       │   ├── Pragmata05.jpg
+│       │   ├── crisomdesert.jpg
+│       │   ├── cyberpunk-1.jpg
+│       │   ├── cyberpunk-2.jpg
+│       │   ├── cyberpunk-3.jpg
+│       │   ├── cyberpunk-4.jpg
+│       │   ├── cyberpunk.jpg
+│       │   ├── death_strading2.jpg
+│       │   ├── death_strading2_01.jpg
+│       │   ├── death_strading2_02.jpg
+│       │   ├── death_strading2_03.jpg
+│       │   ├── death_strading2_04.jpg
+│       │   ├── doom-1.jpg
+│       │   ├── doom-2.jpg
+│       │   ├── doom-3.jpg
+│       │   ├── doom-4.jpg
+│       │   ├── doom.jpg
+│       │   ├── elden-ring-1.jpg
+│       │   ├── elden-ring-2.jpg
+│       │   ├── elden-ring-3.jpg
+│       │   ├── elden-ring-4.jpg
+│       │   ├── eldenring.jpg
+│       │   ├── ff2.jpg
+│       │   ├── gow-ragnarok-1.jpg
+│       │   ├── gow-ragnarok-2.jpg
+│       │   ├── gow-ragnarok-3.jpg
+│       │   ├── gow-ragnarok-4.jpg
+│       │   ├── gta_6_02.jpg
+│       │   ├── gta_6_03.jpg
+│       │   ├── gta_6_04.jpg
+│       │   ├── hellraiser_01.jpg
+│       │   ├── hellraiser_02.jpg
+│       │   ├── hellraiser_03.jpg
+│       │   ├── hellraiser_04.jpg
+│       │   ├── horizon-1.jpg
+│       │   ├── horizon-2.jpg
+│       │   ├── horizon-3.jpg
+│       │   ├── horizon-4.jpg
+│       │   ├── horizon.jpg
+│       │   ├── onimusha-1.jpg
+│       │   ├── onimusha-2.jpg
+│       │   ├── onimusha-3.jpg
+│       │   ├── onimusha-4.jpg
+│       │   ├── onimusha5.jpg
+│       │   ├── phanton_blade.jpg
+│       │   ├── phanton_blade_01.jpg
+│       │   ├── phanton_blade_02.jpg
+│       │   ├── phanton_blade_03.jpg
+│       │   ├── phanton_blade_04.jpg
+│       │   ├── pragmata.jpg
+│       │   ├── pragmata_01.jpg
+│       │   ├── pragmata_02.jpg
+│       │   ├── pragmata_03.jpg
+│       │   ├── pragmata_04.jpg
+│       │   ├── re9-2.jpg
+│       │   ├── re9-3.jpg
+│       │   ├── re9-4.jpg
+│       │   ├── re9.jpg
+│       │   ├── silent_hill2.jpg
+│       │   ├── silent_hill2_01.jpg
+│       │   ├── silent_hill2_02.jpg
+│       │   ├── silent_hill2_03.jpg
+│       │   ├── silent_hill2_04.jpg
+│       │   ├── silksong-1.jpg
+│       │   ├── silksong-2.jpg
+│       │   ├── silksong-3.jpg
+│       │   ├── silksong-4.jpg
+│       │   ├── starfield-1.jpg
+│       │   ├── starfield-2.jpg
+│       │   ├── starfield-3.jpg
+│       │   ├── starfield-4.jpg
+│       │   ├── yotei-1.jpg
+│       │   ├── yotei-2.jpg
+│       │   ├── yotei-3.jpg
+│       │   └── yotei-4.jpg
+│       ├── movies_series
+│       │   ├── HP1.jpg
+│       │   ├── HP2.jpg
+│       │   ├── HP3.jpg
+│       │   ├── HP4.jpg
+│       │   ├── HP5.jpg
+│       │   ├── HP6.png
+│       │   ├── HP7_1.jpg
+│       │   ├── HP7_2.jpg
+│       │   ├── alien_romulus.jpg
+│       │   ├── alien_romulus1.jpg
+│       │   ├── dark_01.jpg
+│       │   ├── interstellar.jpg
+│       │   ├── interstellar1.jpg
+│       │   └── teste.jpg
+│       └── music
+│           ├── a_thousand_suns.jpg
+│           ├── from_zero.jpg
+│           ├── hybrid_theory.jpg
+│           ├── living_things.jpg
+│           ├── meteora.jpg
+│           ├── minutes_to_midnight.jpg
+│           ├── one_more_light.jpg
+│           └── the_hunting_party.jpg
+├── contact
+│   └── index.html
+├── home.html
+├── lista.txt
+├── pages
+│   ├── about_us.html
+│   ├── books.html
+│   ├── booksinfo.html
+│   ├── games.html
+│   ├── gamesinfo.html
+│   ├── login.html
+│   ├── movies_series.html
+│   ├── movies_seriesinfo.html
+│   ├── music.html
+│   ├── musicinfo.html
+│   ├── register.html
+│   └── review.html
+└── seed
+    ├── books.py
+    ├── games.py
+    ├── media.py
+    └── music.py
+
+14 directories, 184 files
