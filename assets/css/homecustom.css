@@ -108,6 +108,7 @@ body{
 .h-8{ height:32px;}
 .h-6{ height:24px; }
 .h-7{ height:42px; }
+.h-12{ height:48px; }
 .h-16{ height:64px; }
 .h-24{ height:96px; }
 .h-32 { height:128px;}
@@ -119,6 +120,8 @@ body{
 .w-6{ width:24px; }
 .w-8{ width:32px; }
 .w-7{ width:42px; }
+.w-12{ width:48px; }
+
 .w-20{ width:80px; }
 .w-24{ width:96px; }
 .w-32{ width:128px; }
@@ -812,32 +815,32 @@ overflow: hidden;
 /* Estilos específicos para a página de jogos, complementando o seu CSS */
 
 .rating-badge {
-    /* Shape & Size */
-    width: 96px;
-    height: 96px;
-    border-radius: 32px; /* Premium Squircle look */
-    
-    /* Background & Border */
-    background: linear-gradient(145deg, var(--gray-100), #050505);
-    border: 1px solid rgba(220, 38, 38, 0.3);
-    
-    /* Centering Content */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    /* Typography */
-    font-size: 42px;
-    font-weight: 900;
-    color: var(--white--);
-    text-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
-    
-    /* Effects */
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    cursor: default;
+   /* Shape & Size */
+   width: 96px;
+   height: 96px;
+   border-radius: 32px; /* Premium Squircle look */
+   
+   /* Background & Border */
+   background: linear-gradient(145deg, var(--gray-100), #050505);
+   border: 1px solid rgba(220, 38, 38, 0.3);
+   
+   /* Centering Content */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   /* Typography */
+   font-size: 42px;
+   font-weight: 900;
+   color: var(--white--);
+   text-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
+   
+   /* Effects */
+   position: relative;
+   overflow: hidden;
+   transition: all 0.3s ease;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+   cursor: default;
 }
 
 /* Hover Effect */
@@ -888,4 +891,113 @@ overflow: hidden;
 .rating-badge span {
     position: relative;
     z-index: 1;
+}
+
+
+/* Estilos para a seção de requisitos do jogo */
+
+.profile-card {
+   width: 100%;
+   max-width: 450px;
+   background: var(--card-bg);
+   border: 1px solid rgba(255, 255, 255, 0.05);
+   border-radius: 24px;
+   padding: 40px;
+   position: relative;
+   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+.user-avatar {
+   width: 100px;
+   height: 100px;
+   margin: 0 auto 15px;
+   background: linear-gradient(135deg, var(--primary-red), var(--dark-red));
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2.5rem;
+   font-weight: 800;
+   box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+   border: 4px solid var(--card-bg);
+}
+
+.stats-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+   margin: 25px 0;
+}
+
+.stat-box {
+   background: rgba(255, 255, 255, 0.03);
+   padding: 15px;
+   border-radius: 16px;
+   text-align: center;
+   border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat-value {
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: var(--primary-red);
+   display: block;
+}
+
+.stat-label {
+   font-size: 0.7rem;
+   text-transform: uppercase;
+   color: var(--text-gray);
+   letter-spacing: 1px;
+}
+
+.input-group label {
+   display: block;
+   font-size: 0.7rem;
+   color: var(--text-gray);
+   text-transform: uppercase;
+   margin-bottom: 5px;
+   letter-spacing: 1px;
+}
+
+.input-field {
+   width: 100%;
+   background: #1a1a1a;
+   border: 1px solid #222;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   margin-bottom: 15px;
+   outline: none;
+   transition: 0.3s;
+}
+
+.input-field:focus {
+   border-color: var(--primary-red);
+}
+
+.btn-primary {
+   width: 100%;
+   background: var(--primary-red);
+   padding: 14px;
+   border-radius: 10px;
+   font-weight: 700;
+   text-transform: uppercase;
+   transition: 0.2s;
+}
+
+.btn-primary:hover {
+   filter: brightness(1.2);
+   transform: translateY(-2px);
+}
+
+#message {
+   position: fixed;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 12px 24px;
+   border-radius: 8px;
+   display: none;
+   z-index: 100;
 }

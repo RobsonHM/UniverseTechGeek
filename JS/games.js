@@ -77,7 +77,7 @@ function renderGameDetails(game) {
     document.title = `${game.titulo} - Informação do Jogo`;
     
     const titleElement = document.querySelector('h1');
-    const ratingElement = document.querySelector('.rating-badge');
+    const ratingElement = document.getElementById('game-rating');
     
     if (titleElement) titleElement.textContent = game.titulo;
     if (ratingElement) ratingElement.textContent = game.nota;

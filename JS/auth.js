@@ -13,6 +13,7 @@ async function loginUser() {
     // 1. Get the input values from your HTML
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value.trim();
+    
 
     if (!email || !password) {
         alert("Please fill in all fields.");
@@ -70,25 +71,23 @@ function logout() {
     window.location.reload();
 }
 
-
 function gerenciarMenuUsuario() {
-    const userLoggedIn = sessionStorage.getItem("userLoggedIn");
+    const userLoggedIn = sessionStorage.getItem("userLoggedIn"); // Supondo que aqui esteja o NOME do usuário
     const loginLink = document.getElementById("nav-login");
-    const logoutBtn = document.getElementById("nav-logout");
 
-    if (!loginLink || !logoutBtn) return;
+    if (!loginLink) return;
 
     if (userLoggedIn) {
         // USUÁRIO LOGADO
-        loginLink.style.display = "none";  // Esconde o "U"
-        logoutBtn.style.display = "block"; // Mostra o "Logout"
-        
-        // Opcional: Mudar a letra "U" pelo nome do usuário
+        loginLink.style.display = "flex"; // MANTENHA VISÍVEL para mostrar a inicial
+        //logoutBtn.style.display = "block"; 
+        // Pega a primeira letra e exibe
         loginLink.innerText = userLoggedIn.charAt(0).toUpperCase();
+
     } else {
         // USUÁRIO DESLOGADO
-        loginLink.style.display = "flex";  // Mostra o "U"
-        logoutBtn.style.display = "none";  // Esconde o "Logout"
+        loginLink.style.display = "flex";
+        loginLink.innerText = "P"; // Ou o ícone padrão
     }
 }
 

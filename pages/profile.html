@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Universe TechGeek</title>
+    <!-- Tailwind for quick structure and your custom CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/HomeCustom.css">
+    <style>
+        :root {
+            --primary-red: #ff0000;
+            --dark-red: #990000;
+            --bg-dark: #0a0a0a;
+            --card-bg: #141414;
+            --text-gray: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: radial-gradient(circle at top right, #1a0000, transparent);
+            color: #fff;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="text-center">
+            <div id="avatar" class="user-avatar">U</div>
+            <h1 id="user-name" class="text-2xl font-bold">Utilizador</h1>
+            <p id="user-email" class="text-gray-500 text-sm">email@exemplo.com</p>
+        </div>
+
+        <!-- Statistics Section (What you asked for) -->
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span id="count-reviews" class="stat-value">0</span>
+                <span class="stat-label">Reviews Made</span>
+            </div>
+            <div class="stat-box">
+                <span id="user-rank" class="stat-value">Member</span>
+                <span class="stat-label">Level</span>
+            </div>
+        </div>
+
+        <form id="editForm">
+            <div class="input-group">
+                <label>Display Name</label>
+                <input type="text" id="edit-name" class="input-field">
+            </div>
+            <button type="submit" class="btn-primary">Update Profile</button>
+        </form>
+
+        <div class="mt-6 pt-6 border-t border-gray-800 text-center">
+            <button onclick="handleLogout()" class="text-red-500 hover:underline text-sm font-semibold">Logout</button>
+            <br>
+            <a href="../home.html" class="inline-block mt-4 text-gray-400 hover:text-white text-sm">Back to Home</a>
+        </div>
+    </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/sql-wasm.js"></script>
+
+    <div id="message" class="bg-green-600 text-white">Success!</div>
+
+    <!-- Database and Logic Scripts -->
+    <script src="../JS/database.js"></script>
+    <script src="../JS/profile.js"></script>
+    
+</body>
+</html>
