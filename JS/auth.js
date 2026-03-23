@@ -1,3 +1,5 @@
+const currentHost = window.location.hostname;
+
 async function NewUser(name, email, password) {
     
     try {
@@ -10,52 +12,27 @@ async function NewUser(name, email, password) {
 }
 
 async function loginUser() {
-    // 1. Get the input values from your HTML
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value.trim();
-    
-
-    if (!email || !password) {
-        alert("Please fill in all fields.");
-        return;
-    }
 
     try {
-        // 2. Ensure the database is loaded
-        if (!window.db) {
-            await initDatabase();
-        }
+        const response = await fetch(`http://${currentHost}:5001/api/login`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        });
 
-        // 3. Search for the user in SQLite
-        // res[0].values will return the data if it finds the exact email and password
-        const res = db.exec("SELECT * FROM users WHERE email = ? AND password = ?", [email, password]);
-
-        if (res.length > 0 && res[0].values.length > 0) {
-            // Success! 
-            const usuario = res[0].values[0]; // Get the first row found
-            const nomeDoUsuario = usuario[1]; // Assuming the name is the second column
-
-            // Save in the browser session (Session Storage)
-            sessionStorage.setItem("userLoggedIn", nomeDoUsuario);
-            
-            alert("Login successful! Welcome, " + nomeDoUsuario);
-            
-            // 4. Redirect to home
-            window.location.href = "../home.html"; 
+        if (response.ok) {
+            const data = await response.json();
+            sessionStorage.setItem("userLoggedIn", data.username);
+            alert("Welcome, " + data.username);
+            window.location.href = "../home.html";
         } else {
-            // If nothing is found in the SELECT
             alert("Incorrect email or password.");
         }
     } catch (e) {
-        console.error("Error during login:", e);
-        alert("A technical error occurred. Please check if you have already registered.");
+        alert("Error connecting to the server.");
     }
-    // Inside the successful login logic
-    const userdata = res[0].values[0]; 
-    const username = userdata[1]; // Index 1 is the 'user' column in your table
-
-    // Let's standardize the key name to 'userLoggedIn'
-    sessionStorage.setItem("userLoggedIn", username);
 }
 
 function logout() {
@@ -91,5 +68,11 @@ function gerenciarMenuUsuario() {
     }
 }
 
-// Chamar a função assim que o DOM carregar
-document.addEventListener("DOMContentLoaded", gerenciarMenuUsuario);
+// No final do auth.js
+document.addEventListener("DOMContentLoaded", () => {
+    try {
+        gerenciarMenuUsuario();
+    } catch (e) {
+        console.error("Erro ao carregar menu de usuário:", e);
+    }
+});

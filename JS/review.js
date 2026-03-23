@@ -1,86 +1,44 @@
-// JS/review.js
 let selectedRating = null;
-// Não declaramos "let db" aqui para não conflitar com o window.db do database.js
 
 // Pega os dados da URL atual
-const urlPath = window.location.pathname; // Ex: /pages/gamesinfo.html
+const urlPath = window.location.pathname;
 const params = new URLSearchParams(window.location.search);
 
-// 1. Identifica a Categoria baseada no nome do arquivo HTML
 let currentCategory = "geral";
 if (urlPath.includes("booksinfo")) currentCategory = "livros";
 if (urlPath.includes("gamesinfo")) currentCategory = "jogos";
 if (urlPath.includes("movies_seriesinfo")) currentCategory = "filmes";
 if (urlPath.includes("musicinfo")) currentCategory = "musica";
 
-// 2. Identifica o ID do item
-const currentItemId = params.get("id"); // Pega o '1' do ?id=1
+const currentItemId = params.get("id");
 
-console.log(`Página atual: Categoria = ${currentCategory}, ID = ${currentItemId}`);
-
-
-
-// 1. FUNÇÃO PRINCIPAL: Carrega o HTML e depois os dados
-async function inicializarSistemaCompleto() {
-    console.log("Iniciando carregamento do sistema...");
-    
-    // A. Garante que o Banco de Dados está pronto
-    window.db = await initDatabase();
-    console.log("Banco pronto!");
-
-    // B. Carrega o HTML do formulário de review
-    const containerGlobal = document.getElementById("container-review-global");
-    if (!containerGlobal) return;
-
+// 1. FUNÇÃO DE CARREGAMENTO (DOCKER)
+async function carregarReviewsDoServidor() {
     try {
-        const response = await fetch('review.html');
-        const html = await response.text();
-        containerGlobal.innerHTML = html;
-        
-        // C. Após o HTML ser inserido, inicializamos os botões e verificamos o login
-        inicializarBotoes();
-        checkLoginStatus();
+        console.log("Buscando reviews no Docker...");
+        const res = await fetch(`http://${currentHost}:5001/api/reviews?item_id=${currentItemId}&categoria=${currentCategory}`);
+        const reviews = await res.json();
 
-        // D. SÓ AGORA as reviews podem ser carregadas, pois o ID "reviews" já existe no DOM
-        carregarReviews();
-        
-    } catch (error) {
-        console.error("Erro ao carregar o arquivo review.html:", error);
-    }
-}
-
-function carregarReviews() {
-    if (!window.db || !currentItemId) return;
-
-    try {
-        // FILTRO: Só busca reviews que batem com o ID e a Categoria da página atual
-        const res = window.db.exec(
-            "SELECT rating, comment, author FROM reviews WHERE item_id = ? AND categoria = ? ORDER BY id ASC",
-            [currentItemId, currentCategory]
-        );
-
-        const container = document.getElementById("reviews");
+        const container = document.getElementById("reviews"); // ID que você usa no HTML
         if (!container) return;
+        
+        container.innerHTML = ""; // Limpa a tela antes de mostrar as do banco
 
-        container.innerHTML = ""; 
-
-        if (res.length > 0 && res[0].values) {
-            res[0].values.forEach(row => {
-                adicionarReviewNaTela(row[0], row[1], row[2]);
-            });
-            console.log(`Carregadas ${res[0].values.length} reviews para este item.`);
-        } 
+        reviews.forEach(rev => {
+            adicionarReviewNaTela(rev.rating, rev.comment, rev.author);
+        });
     } catch (e) {
-        console.warn("Tabela de reviews ainda não filtrável ou vazia.");
+        console.error("Error loading reviews from Docker:", e);
     }
 }
 
+// 2. ADICIONAR VISUALMENTE
 function adicionarReviewNaTela(nota, texto, user) {
     const container = document.getElementById("reviews");
     if (!container) return;
 
     const review = document.createElement("div");
-    review.classList.add("review-card");
+    review.classList.add("review-card"); // Certifique-se que essa classe existe no seu CSS
     review.innerHTML = `
         <div class="review-note">${nota}/10</div>
         <p class="text-white mt-4">${texto}</p>
@@ -89,51 +47,75 @@ function adicionarReviewNaTela(nota, texto, user) {
     container.prepend(review);
 }
 
-function submitReview() {
-    // 1. Verificar login
+// 3. ENVIAR PARA O DOCKER
+async function submitReview() {
     const userLoggedIn = sessionStorage.getItem("userLoggedIn");
-    if (!userLoggedIn) {
-        alert("You need to log in to comment.");
-        window.location.href = "login.html";
-        return;
-    }
-
-    // 2. Capturar os valores dos inputs (AGORA A VARIÁVEL 'text' NASCE AQUI)
     const reviewInput = document.getElementById("reviewText");
     const text = reviewInput ? reviewInput.value.trim() : "";
 
-    // 3. Validações de preenchimento
-    if (selectedRating === null || text === "") {
-        alert("Select a rating and write something.");
+    if (!userLoggedIn) { alert("Please login first!"); 
+        window.location.href = "login.html"; return; }
+    if (selectedRating === null || text === "") { alert("Rating and write a comment!"); return; }
+
+    const reviewData = {
+        item_id: currentItemId,
+        categoria: currentCategory,
+        rating: selectedRating,
+        comment: text,
+        author: userLoggedIn
+    };
+
+    try {
+        const response = await fetch(`http://${currentHost}:5001/api/reviews`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(reviewData)
+        });
+        
+        if (response.ok) {
+            // Em vez de só adicionar na tela, vamos recarregar do banco para garantir
+            carregarReviewsDoServidor();
+            reviewInput.value = "";
+            selectedRating = null;
+            document.querySelectorAll(".rating-btn").forEach(b => b.classList.remove("active"));
+        }
+    } catch (e) {
+        alert("Error saving review on the server.");
+    }
+}
+
+// 4. INICIALIZAÇÃO
+async function inicializarSistemaCompleto() {
+    const containerGlobal = document.getElementById("container-review-global");
+    if (!containerGlobal) {
+        console.warn("Container 'container-review-global' não encontrado.");
         return;
     }
 
-    // 4. Salvar no Banco (Uma única vez, com todas as colunas)
-    if (window.db) {
-        try {
-            window.db.run(
-                "INSERT INTO reviews (item_id, categoria, rating, comment, author) VALUES (?, ?, ?, ?, ?)", 
-                [currentItemId, currentCategory, selectedRating, text, userLoggedIn]
-            );
-            window.db.persist();
-            console.log("Review saved successfully!");
-        } catch (e) {
-            console.error("Error saving to the database. You might need to clear localStorage?", e);
-        }
+    try {
+        // Tente usar o caminho relativo correto aqui
+        const response = await fetch('review.html'); 
+        if (!response.ok) throw new Error("Não foi possível carregar review.html");
+        
+        const html = await response.text();
+        containerGlobal.innerHTML = html;
+        
+        inicializarBotoes();
+        checkLoginStatus();
+        carregarReviewsDoServidor();
+        
+    } catch (error) {
+        console.error("Erro crítico no review.js:", error);
     }
-
-    // 5. Add visually to the screen
-    adicionarReviewNaTela(selectedRating, text, userLoggedIn);
-
-    // 6. Reset the form
-    selectedRating = null;
-    document.querySelectorAll(".rating-btn").forEach(b => b.classList.remove("active"));
-    if (reviewInput) reviewInput.value = "";
 }
+
+// Use apenas UM event listener
+document.addEventListener("DOMContentLoaded", inicializarSistemaCompleto);
 
 function inicializarBotoes() {
     const ratingContainer = document.getElementById("ratingButtons");
     if (!ratingContainer) return;
+    ratingContainer.innerHTML = ""; // Limpa para não duplicar
 
     for (let i = 0; i <= 10; i++) {
         let btn = document.createElement("button");
@@ -150,12 +132,20 @@ function inicializarBotoes() {
 
 function checkLoginStatus() {
     const userLoggedIn = sessionStorage.getItem("userLoggedIn");
-    const formReview = document.getElementById("reviewForm"); // Supondo que o form tenha esse ID dentro do review.html
-
+    const formReview = document.getElementById("reviewForm");
     if (!userLoggedIn && formReview) {
-        formReview.innerHTML = `<p class="text-white">Faça <a href="login.html" class="text-blue-400">login</a> para avaliar.</p>`;
+        formReview.innerHTML = `<p class="text-white text-center p-4">Please <a href="login.html" class="text-blue-400 underline">login</a> to review.</p>`;
     }
 }
 
-// ÚNICO PONTO DE ENTRADA
-window.addEventListener('load', inicializarSistemaCompleto);
+// ÚNICO PONTO DE ENTRADA NECESSÁRIO
+//window.addEventListener('DOMContentLoaded', inicializarSistemaCompleto);
+
+// No final do review.js
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Sistema de reviews iniciando...");
+    const containerGlobal = document.getElementById("container-review-global");
+    if (containerGlobal) {
+        inicializarSistemaCompleto(); 
+    }
+});

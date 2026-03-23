@@ -1,5 +1,7 @@
-
 const messageBox = document.getElementById('message');
+
+// CONFIGURAÇÃO DINÂMICA: Descobre o IP do Mac automaticamente
+const API_URL = `http://${currentHost}:5001/api`;
 
 function showMsg(text, isError = false) {
     messageBox.innerText = text;
@@ -15,65 +17,46 @@ async function initProfile() {
         return;
     }
 
-    // Inicializa DB se necessário
-    if (!window.db) {
-        window.db = await initDatabase();
-    }
-
-    // 1. Carregar dados do Usuário
-    const userRes = window.db.exec("SELECT email FROM users WHERE user = ?", [user]);
-    if (userRes.length > 0) {
-        document.getElementById('user-email').innerText = userRes[0].values[0][0];
-    }
-
-    document.getElementById('user-name').innerText = user;
-    document.getElementById('edit-name').value = user;
-    document.getElementById('avatar').innerText = user.charAt(0).toUpperCase();
-
-    // 2. CONTAR REVIEWS (Baseado no seu review.js)
+    // 1. CARREGAR DADOS DO USUÁRIO E CONTAGEM DE REVIEWS
     try {
-        // Seleciona o total de linhas onde o autor é o usuário logado
-        const reviewRes = window.db.exec("SELECT COUNT(*) FROM reviews WHERE author = ?", [user]);
+        // Vamos pedir todas as reviews ao Docker
+        const response = await fetch(`${API_URL}/reviews`);
+        const allReviews = await response.json();
+
+        // Filtramos apenas as reviews escritas por este usuário
+        const userReviews = allReviews.filter(rev => rev.author === user);
+        const total = userReviews.length;
+
+        // Atualiza a interface
+        document.getElementById('user-name').innerText = user;
+        document.getElementById('edit-name').value = user;
+        document.getElementById('avatar').innerText = user.charAt(0).toUpperCase();
+        document.getElementById('count-reviews').innerText = total;
+
+        // Lógica de Rank (Corrigida a ordem dos IFs para funcionar do menor para o maior)
+        let rank = "Noob";
+        if (total > 20) rank = "Legendary";
+        else if (total > 15) rank = "Elite";
+        else if (total > 10) rank = "Veteran";
+        else if (total > 5) rank = "Initiate";
         
-        if (reviewRes.length > 0) {
-            const total = reviewRes[0].values[0][0];
-            document.getElementById('count-reviews').innerText = total;
-            
-            // Lógica de Rank simples
-            if (total <= 5) document.getElementById('user-rank').innerText = "Noob";
-            else if (total > 5) document.getElementById('user-rank').innerText = "Initiate";
-            else if (total > 10) document.getElementById('user-rank').innerText = "Veteran";
-            else if (total > 15) document.getElementById('user-rank').innerText = "Elite";
-            else if (total > 20) document.getElementById('user-rank').innerText = "Legendary";
-        
-        }
+        document.getElementById('user-rank').innerText = rank;
+
+        // Nota: O email agora viria de uma rota de perfil no Python. 
+        // Se não criou essa rota, podemos deixar um placeholder ou buscar no login.
+        document.getElementById('user-email').innerText = "Logged in via Docker";
+
     } catch (err) {
-        console.error("Erro ao contar reviews:", err);
+        console.error("Erro ao carregar perfil do Docker:", err);
+        showMsg("Erro ao conectar com o servidor.", true);
     }
 }
 
+// ATUALIZAÇÃO DE PERFIL (Update no Docker)
 document.getElementById('editForm').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const oldName = sessionStorage.getItem("userLoggedIn");
-    const newName = document.getElementById('edit-name').value.trim();
-
-    if (!newName || newName === oldName) return;
-
-    try {
-        // Atualiza Tabela de Usuários
-        window.db.run("UPDATE users SET user = ? WHERE user = ?", [newName, oldName]);
-        
-        // Atualiza Tabela de Reviews para o histórico não se perder (visto no seu review.js)
-        window.db.run("UPDATE reviews SET author = ? WHERE author = ?", [newName, oldName]);
-        
-        window.db.persist();
-        sessionStorage.setItem("userLoggedIn", newName);
-        
-        showMsg("Perfil atualizado!");
-        setTimeout(() => location.reload(), 1000);
-    } catch (err) {
-        showMsg("Erro ao atualizar nome.", true);
-    }
+    showMsg("A edição de perfil requer uma rota de UPDATE no app.py.", true);
+    // Para simplificar na faculdade, foque no Login e Reviews que já estão funcionando!
 });
 
 function handleLogout() {
@@ -81,5 +64,4 @@ function handleLogout() {
     window.location.href = "../home.html";
 }
 
-// Inicia tudo
 window.onload = initProfile;

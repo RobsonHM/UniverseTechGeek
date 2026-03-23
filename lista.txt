@@ -1,5 +1,6 @@
 .
 ├── 404.html
+├── Dockerfile
 ├── JS
 │   ├── auth.js
 │   ├── book.js
@@ -8,6 +9,7 @@
 │   ├── games.js
 │   ├── movies_series.js
 │   ├── music.js
+│   ├── profile.js
 │   ├── register.js
 │   └── review.js
 ├── README.md
@@ -16,6 +18,7 @@
 │   ├── games.json
 │   ├── movies_series.json
 │   └── music.json
+├── app.py
 ├── assets
 │   ├── css
 │   │   ├── globalcustom.css
@@ -176,6 +179,9 @@
 │           └── the_hunting_party.jpg
 ├── contact
 │   └── index.html
+├── database
+│   └── universetech.db
+├── docker-compose.yml
 ├── home.html
 ├── lista.txt
 ├── pages
@@ -189,12 +195,14 @@
 │   ├── movies_seriesinfo.html
 │   ├── music.html
 │   ├── musicinfo.html
+│   ├── profile.html
 │   ├── register.html
 │   └── review.html
+├── requirements.txt
 └── seed
     ├── books.py
     ├── games.py
     ├── media.py
     └── music.py
 
-14 directories, 184 files
+15 directories, 191 files

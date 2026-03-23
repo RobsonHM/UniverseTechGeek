@@ -1,10 +1,14 @@
-# Ignore the environment variables file
-.env
+# Banco de dados (os dados reais que você criou testando)
+database/universetech.db
 
-# If you used other names like media.env or .mediaenv, add them too:
-media.env
-.mediaenv
-
-# Ignore Python cache files (standard practice)
+# Ambiente virtual do Python
+venv/
+.venv/
 __pycache__/
 *.pyc
+
+# Configurações sensíveis
+.env
+
+# Logs do Docker
+*.log
