@@ -67,7 +67,7 @@ function logout() {
     alert("You have logged out.");
 
     // 2. Redirect to home or login
-    window.location.href = "home.html"; 
+    window.location.reload();
 }
 
 

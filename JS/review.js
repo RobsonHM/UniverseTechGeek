@@ -11,6 +11,7 @@ let currentCategory = "geral";
 if (urlPath.includes("booksinfo")) currentCategory = "livros";
 if (urlPath.includes("gamesinfo")) currentCategory = "jogos";
 if (urlPath.includes("movies_seriesinfo")) currentCategory = "filmes";
+if (urlPath.includes("musicinfo")) currentCategory = "musica";
 
 // 2. Identifica o ID do item
 const currentItemId = params.get("id"); // Pega o '1' do ?id=1
@@ -54,7 +55,7 @@ function carregarReviews() {
     try {
         // FILTRO: Só busca reviews que batem com o ID e a Categoria da página atual
         const res = window.db.exec(
-            "SELECT rating, comment, author FROM reviews WHERE item_id = ? AND categoria = ? ORDER BY id DESC",
+            "SELECT rating, comment, author FROM reviews WHERE item_id = ? AND categoria = ? ORDER BY id ASC",
             [currentItemId, currentCategory]
         );
 
