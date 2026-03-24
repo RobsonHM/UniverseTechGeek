@@ -1,23 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 
-<div class="flex justify-center py-13 mt-4">
+    <div class="flex justify-center py-13 mt-4">
 
-    <div class="spec-card space-y-4 w-full" style="max-width:1150px;">
-        <h2 class="text-2xl font-bold text-center">Leave Your Review</h2>
-        <div class="text-center">
-            <div id="ratingButtons" class="flex justify-center flex-wrap gap-2"></div>
+        <div class="spec-card space-y-4 w-full" style="max-width:1150px;">
+            <h2 class="text-2xl font-bold text-center">Leave Your Review</h2>
+            <div class="text-center">
+                <div id="ratingButtons" class="flex justify-center flex-wrap gap-2"></div>
+            </div>
+            <div>
+                <textarea 
+                    id="reviewText" 
+                    class="w-full p-2 rounded bg-gray-100 text-white outline-none"
+                    rows="4"
+                    placeholder="Write your review..."></textarea>
+            </div>
+            <div class="flex justify-center">
+                <button onclick="submitReview()" class="text-blue-600 font-semibold button-transparent">Send Review</button>
+            </div>
+            <div id="reviews" class="space-y-4 mt-4 reviews-container"></div>
         </div>
-        <div>
-            <textarea 
-                id="reviewText" 
-                class="w-full p-2 rounded bg-gray-100 text-white outline-none"
-                rows="4"
-                placeholder="Write your review..."></textarea>
-        </div>
-        <div class="flex justify-center">
-            <button onclick="submitReview()" class="text-blue-600 font-semibold button-transparent">Send Review</button>
-        </div>
-        <div id="reviews" class="space-y-4 mt-4 reviews-container"></div>
+        <script src="../JS/review.js"></script>
+
     </div>
-    <script src="../JS/review.js"></script>
 
-</div>
+</body>
+</html>

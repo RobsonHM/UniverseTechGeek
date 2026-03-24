@@ -42,6 +42,7 @@ body{
 .px-2{ padding-left:8px; padding-right:8px; }
 .px-4{ padding-left:16px; padding-right:16px; }
 .px-8{ padding-left:32px; padding-right:32px; }
+.py-8{ padding-top:24px; padding-bottom:24px; }
 .py-12{ padding-top:48px; padding-bottom:48px; }
 .py-13{ padding-bottom:48px; }
 .py-12{ padding-top:48px; padding-bottom:48px; }
@@ -156,6 +157,9 @@ body{
 .text-blue-600{ color:var(--white--); }
 .text-white{ color:#fff; }
 
+.mb-0{ margin-top: -20px; }
+.mb-1{ margin-top: -10px; }
+.mb-2{ margin-top: -5px; }
 .mb-4{ margin-bottom:16px; }
 .mb-6{ margin-bottom:24px; }
 .mb-8{ margin-bottom:32px; }
