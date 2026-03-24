@@ -105,6 +105,40 @@ def login():
         return jsonify({"status": "success", "username": user['user']}), 200
     return jsonify({"error": "Invalid credentials"}), 401
 
+# ROTA PARA ATUALIZAR O NOME DE USUÁRIO
+@app.route('/api/users/update', methods=['PUT'])
+def update_user():
+    data = request.get_json()
+    
+    # Pegamos o nome que está vindo do sessionStorage (identificador)
+    # e o nome novo que o usuário digitou
+    old_username = data.get('id')  # No seu JS você chamou de 'id', mas é o nome antigo
+    new_username = data.get('username')
+
+    if not old_username or not new_username:
+        return jsonify({"error": "Dados insuficientes"}), 400
+
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    try:
+        # ATENÇÃO: Onde estava "WHERE id = ?", mudamos para "WHERE user = ?"
+        cursor.execute("UPDATE users SET user = ? WHERE user = ?", (new_username, old_username))
+        conn.commit()
+        
+        # Verifica se alguma linha foi realmente afetada
+        if cursor.rowcount == 0:
+            return jsonify({"error": "Usuário antigo não encontrado"}), 404
+            
+        return jsonify({"status": "success", "message": "Usuário atualizado!"})
+    except sqlite3.IntegrityError:
+        # Caso o 'new_username' já exista no banco (por causa do UNIQUE)
+        return jsonify({"error": "Este nome de usuário já está em uso"}), 409
+    finally:
+        conn.close()
+
+
+
 if __name__ == '__main__':
     init_db()
     app.run(host='0.0.0.0', port=5000)

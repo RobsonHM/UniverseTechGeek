@@ -52,16 +52,51 @@ async function initProfile() {
     }
 }
 
-// ATUALIZAÇÃO DE PERFIL (Update no Docker)
-document.getElementById('editForm').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    showMsg("A edição de perfil requer uma rota de UPDATE no app.py.", true);
-    // Para simplificar na faculdade, foque no Login e Reviews que já estão funcionando!
-});
-
 function handleLogout() {
     sessionStorage.removeItem("userLoggedIn");
     window.location.href = "../home.html";
 }
+
+
+async function UpdateUsername(event) {
+    if (event) event.preventDefault(); // Impede o recarregamento da página
+
+    const oldUser = sessionStorage.getItem("userLoggedIn");
+    const inputField = document.getElementById('edit-name');
+    const newUsername = inputField.value.trim();
+
+    if (!newUsername || newUsername === oldUser) {
+        showMsg("Digite um nome novo e válido!", true);
+        return;
+    }
+
+    const dados = {
+        id: oldUser, // Enviando o nome atual para o WHERE
+        username: newUsername
+    };
+
+    try {
+        const response = await fetch(`${API_URL}/users/update`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(dados)
+        });
+
+        const resultado = await response.json();
+
+        if (response.ok) {
+            sessionStorage.setItem("userLoggedIn", newUsername);
+            document.getElementById('user-name').innerText = newUsername;
+            showMsg("Perfil atualizado com sucesso!");
+        } else {
+            showMsg(resultado.error || "Erro ao atualizar", true);
+        }
+    } catch (erro) {
+        showMsg("Erro de conexão.", true);
+    }
+}
+
+// No seu HTML, garanta que o botão chame a função passando o evento
+document.getElementById("editForm").onclick = UpdateUsername;
 
 window.onload = initProfile;
