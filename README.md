@@ -90,9 +90,9 @@ UniverseTechGeek/
 
 ## Contributors
 - **Business Analyst:** Nathalia
-- **IT Operation:** Luara
+- **IT Operation:** Luara / Robson Henrique
 - **Developer:** Robson Henrique
-- **Quality Assurance:** Amanda
+- **Quality Assurance:** Robson Henrique
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
