@@ -445,7 +445,7 @@
     "author": "Sasha Fierce",
     "genre": "Contemporary Fiction",
     "rating": 8.8,
-    "cover": "../assets/img/books/VelvetRopes.jpg",
+    "cover": "../assets/img/books/valvetropes.jpg",
     "description": "A behind-the-scenes look at the glamorous and gritty world of elite Hollywood event planning, where the champagne is expensive, the scandals are curated, and the loyalty is non-existent.",
     "publisher": "Starlet Books",
     "year": "2022",
@@ -510,6 +510,424 @@
     "language": "en",
     "especificacoes": {
       "isbn": "9798994635179",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 28,
+    "title": "George Orwell: 1984 / Nineteen Eighty-Four (English Edition)",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=GbxnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "George Orwell’s \"1984\" (first published in 1949) is a groundbreaking dystopian novel set in a totalitarian society ruled by the oppressive Party and its leader, Big Brother. The story follows Winston Smith, a low-ranking Party member who secretly rebels against the regime’s pervasive surveillance, propaganda, and thought control. Through concepts like Newspeak, doublethink, and the infamous slogan \"War is Peace, Freedom is Slavery, Ignorance is Strength,\" Orwell explores themes of government overreach, psychological manipulation, and the erosion of truth. \"1984\" remains a chilling and influential critique of authoritarianism, still widely studied and referenced today. This edition is the English-language hardcover version of Orwell's classic novel. George Orwell. 1984. First published:\"Nineteen Eighty-Four\", Secker and Warburg, London 1949. Neuausgabe, LIWI Literatur- und Wissenschaftsverlag, Göttingen 2025.",
+    "publisher": "BoD – Books on Demand",
+    "year": "2025",
+    "pages": "186",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9783753800097",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 29,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=5jzb0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "Atomic Habits: An Easy & Proven Way to Build Good Habits and Break Bad Ones by James Clear",
+    "publisher": "Unknown",
+    "year": "2023",
+    "pages": "0",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9798994635179",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 30,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "cover": "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "The only edition of the beloved classic that is authorized by Fitzgerald’s family and from his lifelong publisher. This edition is the enduring original text, updated with the author’s own revisions, a foreword by his granddaughter, and with a new introduction by National Book Award winner Jesmyn Ward. The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published by Scribner in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan is an exquisitely crafted tale of America in the 1920s.",
+    "publisher": "Simon and Schuster",
+    "year": "2003",
+    "pages": "196",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780743246392",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 31,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "rating": 5,
+    "cover": "http://books.google.com/books/content?id=DRagKAMw8AcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "The explosion of racial hate and violence in a small Alabama town is viewed by a little girl whose father defends a black man accused of rape.",
+    "publisher": "Unknown",
+    "year": "1960",
+    "pages": "296",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "N/A",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 32,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Courtship",
+    "rating": 4,
+    "cover": "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "Austen’s most celebrated novel tells the story of Elizabeth Bennet, a bright, lively young woman with four sisters, and a mother determined to marry them to wealthy men. At a party near the Bennets’ home in the English countryside, Elizabeth meets the wealthy, proud Fitzwilliam Darcy. Elizabeth initially finds Darcy haughty and intolerable, but circumstances continue to unite the pair. Mr. Darcy finds himself captivated by Elizabeth’s wit and candor, while her reservations about his character slowly vanish. The story is as much a social critique as it is a love story, and the prose crackles with Austen’s wry wit.",
+    "publisher": "Unknown",
+    "year": "1918",
+    "pages": "448",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "N/A",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 33,
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=mZunDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "'If you really want to hear about it, the first thing you'll probably want to know is where I was born and what my lousy childhood was like, and how my parents were occupied and all before they had me, and all that David Copperfield kind of crap, but I don't feel like going into it, if you want to know the truth.' The first of J. D. Salinger's four books to be published, The Catcher in the Rye is one of the most widely read and beloved of all contemporary American novels. 'The handbook of the adolescent heart' The New Yorker",
+    "publisher": "Penguin UK",
+    "year": "2019",
+    "pages": "207",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780241988794",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 34,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "genre": "Adventure stories",
+    "rating": 4,
+    "cover": "http://books.google.com/books/content?id=XV8XAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "A literary classic that wasn't recognized for its merits until decades after its publication, Herman Melville's Moby-Dick tells the tale of a whaling ship and its crew, who are carried progressively further out to sea by the fiery Captain Ahab. Obsessed with killing the massive whale, which had previously bitten off Ahab's leg, the seasoned seafarer steers his ship to confront the creature, while the rest of the shipmates, including the young narrator, Ishmael, and the harpoon expert, Queequeg, must contend with their increasingly dire journey. The book invariably lands on any short list of the greatest American novels.",
+    "publisher": "Unknown",
+    "year": "1892",
+    "pages": "576",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "N/A",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 35,
+    "title": "War and Peace",
+    "author": "Leo Tolstoi",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "cover": "http://books.google.com/books/content?id=s-OQ2yHDIMQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "Widely regarded as the greatest novel in any language, War and Peace is primarily concerned with the histories of five aristocratic families--particularly the Bezukhovs, the Bolkonskys, and the Rostovs--the members of which are portrayed against a vivid background of Russian social life during the war against Napoleon (1805-14). The theme of war, however, is subordinate to the story of family existence, which involves Tolstoy's optimistic belief in the life-asserting pattern of human existence. The heroine, Natasha Rostova, for example, reaches her greatest fulfilment through her marriage to Pierre Bezukhov and her motherhood. The novel also sets forth a theory of history, concluding that there is a minimum of free choice; all is ruled by an inexorable historical determinism",
+    "publisher": "Collector's Library",
+    "year": "2004",
+    "pages": "1662",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781904633853",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 36,
+    "title": "Homer: The Odyssey",
+    "author": "Homer",
+    "genre": "Foreign Language Study",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=yvdfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "In this vibrant new translation, in a very readable prose format, Martin Hammond complements his acclaimed translation of The Iliad to capture as closely as possible both the simplicity and the intensity of Homer??'s epic.",
+    "publisher": "Bristol Classical Press",
+    "year": "2000",
+    "pages": "328",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "N/A",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 37,
+    "title": "The Lord of the Rings",
+    "author": "John Ronald Reuel Tolkien",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "cover": "http://books.google.com/books/content?id=GuLZAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "In time for the golden anniversary of the arrival of part one of Tolkien's epic masterpiece on these shore comes a spectacular new edition of \"The Lord of the Rings.\" The text is fully correctedQunder the supervision of Christopher TolkienQto meet the author's exacting wishes, and includes two large-format fold-out maps, a ribbon placemarker, and exceptionally elegant packaging. 0-618-51765-0$100.00 / Houghton Mifflin",
+    "publisher": "William Morrow",
+    "year": "2004",
+    "pages": "1200",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "N/A",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 38,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=DwF3PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "An Andalusian shepherd boy named Santiago travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids. Along the way he meets a Gypsy woman, a man who calls himself king, and an alchemist, all of whom point Santiago in the direction of his quest. No one knows what the treasure is, or if Santiago will be able to surmount the obstacles along the way. But what starts out as a journey to find worldly goods turns into a discovery of the treasures found within.",
+    "publisher": "Turtleback Books",
+    "year": "1995",
+    "pages": "0",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780613334587",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 39,
+    "title": "The Da Vinci Code (Republish)",
+    "author": "Dan Brown",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=6-pmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "Robert Langdon menerima telepon misterius yang mengundangnya ke Museum Louvre Paris pada tengah malam. Sesampai di sana, yang ditemui Langdon adalah mayat telanjang sang kurator museum dengan posisi dan tato aneh di perutnya. Langdon terkejut ketika menyadari bahwa teka-teki itu mengarah ke misteri terbesar sepanjang sejarah yang petunjuknya tersembunyi dalam karya-karya Da Vinci. Misteri tentang persaudaraan rahasia yang melibatkan nama-nama besar. Persaudaraan yang menjaga sebuah fakta sejarah yang sangat mengejutkan. Fakta yang bisa mengguncang keyakinan miliaran manusia di dunia. Dengan bantuan kriptolog Sophie Neveu, Langdon berusaha memecahkan misteri itu sambil berusaha menghindari kejaran polisi sepanjang Paris, London, dan kota lainnya. Langdon harus segera memecahkan misteri itu dan mengalahkan musuh tersembunyi yang menghadang di setiap langkah mereka dan mengancam nyawa. [Mizan, Mizan Publishing, Novel, Misteri, Thriller, Terjemahan, Indonesia]",
+    "publisher": "Bentang Pustaka",
+    "year": "2018",
+    "pages": "681",
+    "language": "id",
+    "especificacoes": {
+      "isbn": "9786022911845",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 40,
+    "title": "The Hunger Games (Hunger Games, Book One)",
+    "author": "Suzanne Collins",
+    "genre": "Young Adult Fiction",
+    "rating": 4,
+    "cover": "http://books.google.com/books/content?id=Yz8Fnw0PlEQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "This Special Edition of The Hunger Games includes the most extensive interview Suzanne Collins has given since the publication of The Hunger Games; an absorbing behind-the-scenes look at the creation of the series; and an engaging archival conversation between Suzanne Collins and YA legend Walter Dean Myers on writing about war. The Special Edition answers many questions fans have had over the years, and gives great insight into the creation of this era-defining work. In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.Sixteen-year-old Katniss Everdeen regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to death before-and survival, for her, is second nature. Still, if she is to win, she will have to start making choices that weigh survival against humanity and life against love.",
+    "publisher": "Scholastic Inc.",
+    "year": "2009",
+    "pages": "387",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780545229937",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 41,
+    "title": "The Chronicles of Narnia Vol I: The Lion, the Witch, and the Wardrobe",
+    "author": "C.S.Lewis",
+    "genre": "Juvenile Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=6EIoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "The Lion, the Witch and the Wardrobe tells the story of four adventurous children: Peter, Susan, Edmund, and Lucy Pevensie, who have been evacuated to the English countryside in 1940 following the outbreak of World War II. They discover a wardrobe in Professor Digory Kirke's house that leads to the magical land of Narnia. Narnia is a charming, once peaceful land inhabited by talking beasts, dwarfs, fauns, and giants. Unfortunately, it has been frozen in eternal winter and enslaved by the power of the White Witch. The arrival of the children, with the return of the Great Lion Aslan , gives Narnia hope for liberation . . . but with a great sacrifice.",
+    "publisher": "Enrich Spot Limited",
+    "year": "2016",
+    "pages": "154",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9789887739562",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 42,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "genre": "Afghanistan",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=E8pEAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "\"The spellbinding story of the unlikely and inseparable friendship between two boys caught in the tragic sweep of history-- from the final days of Afghanistan's monarchy throught the horrific rule of the Taliban\"--Book flap.",
+    "publisher": "Unknown",
+    "year": "2011",
+    "pages": "132",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781101541234",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 43,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": "Fiction",
+    "rating": 5,
+    "cover": "http://books.google.com/books/content?id=uvFVRiAIVpYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "description": "The extraordinary international bestseller from the author of new novel Bridge of Clay. NOW A MAJOR MOTION PICTURE \"Brilliant and hugely ambitious ... the kind of book that can be life changing\" The New York Times It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will become busier still. By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordion-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found. But these are dangerous times. When Liesel's foster family hides a Jewish fist-fighter in their basement, Liesel's world is both opened up, and closed down. The Book Thief is a story about the power of words to make worlds. In superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time. ACCLAIM FOR THE BOOK THIEF \"The Book Thief deserves a place on the same shelf with The Diary of a Young Girl by Anne Frank and Elie Wiesel's Night. It seems poised to become a classic.\" USA Today \"Elegant, philosophical and moving ... Beautiful and important.\" Kirkus Reviews \"Extraordinary, resonant and relevant, beautiful and angry.\" Sunday Telegraph \"...a beautifully balanced piece of storytelling...Unsettling, thought-provoking, life affirming, triumphant and tragic, this is a novel of breathtaking scope, masterfully told. It is an important piece of work, but also a wonderful page-turner.\" The Guardian \"A moving work which will make many eyes brim.\" Independent on Sunday AWARDS FOR THE BOOK THIEF Commonwealth Writers' Prize for Best Book (South East Asia & South Pacific) 2006 School Library Journal Best Book of the Year 2006 Daniel Elliott Peace Award 2006 Publishers Weekly Best Children's Book of the Year 2006 National Jewish Book Award for Children's and Young Adult Literature 2006 Bulletin Blue Ribbon Book 2006 Michael L. Printz Honor Book 2007 Book Sense Book of the Year Award for Children's Literature 2007 Winner of the ALA Youth Medal Awards' Margaret A. Edwards Award 2014",
+    "publisher": "Picador Australia",
+    "year": "2007",
+    "pages": "596",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781742624068",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 44,
+    "title": "Unraveling Resident Evil",
+    "author": "Nadine Farghaly",
+    "genre": "Literary Criticism",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=XENXAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "Resident Evil is a multidimensional as well as multimedia universe: Various books, graphic novels, games and movies (the fifth one came out in 2012) all contribute to this enormous universe. The new essays written for this volume focus on this particular zombie manifestation and its significance in popular culture. The essayists come from very different fields, so it was possible to cover a wide range and discuss numerous issues regarding this universe. Among them are game theory, the idea of silence as well as memory, the connection to iconic stories such as Alice in Wonderland, posthumanism and much more. A lot of ground is covered that will facilitate further discussions not only among Resident Evil interested persons but also among other zombie universes and zombies in general. Most of these essays focus on the female figure Alice, a character revered by many as a feminist warrior.",
+    "publisher": "McFarland",
+    "year": "2014",
+    "pages": "249",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780786472918",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 45,
+    "title": "The Last of Us and Theology",
+    "author": "Peter Admirand",
+    "genre": "Religion",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=3VuAEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "With a catastrophic fungal pandemic, the post-apocalypse, a moral quest despite societal breakdowns, humans hunting humans or morphed into grotesque infected, The Last of Us video games and HBO series have exhilarated, frightened, and broken the hearts of millions of gamers and viewers. The Last of Us and Theology: Violence, Ethics, Redemption? is a richly diverse and probing edited volume featuring essays from academics across the world to examine theological and ethical themes from The Last of Us universe. Divided into three groupings-Violence, Ethics, and Redemption?-these chapters will especially appeal to The Last of Us fans and those interested in Theology and Pop Culture more broadly. Chapters not only grapple with theologians, ethicists, and novelists like Cormac McCarthy, Fyodor Dostoevsky, Martin Buber, and Paul Tillich; and theological issues from forgiveness and theodicy to soteriology and eschatology; but will help readers become experts on all things fireflies, clickers, Cordyceps, and Seraphites. “Save who you can save” and “Look for the Light.”",
+    "publisher": "Bloomsbury Publishing USA",
+    "year": "2024",
+    "pages": "310",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781978716360",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 46,
+    "title": "The Legend of Zelda and Philosophy",
+    "author": "Luke Cuddy",
+    "genre": "Philosophy",
+    "rating": 5,
+    "cover": "http://books.google.com/books/content?id=_UefdMONDLIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "With both young and adult gamers as loyal fans, The Legend of Zelda is one of the most beloved video game series ever created. The contributors to this volume consider the following questions and more: What is the nature of the gamer’s connection to Link? Does Link have a will, or do gamers project their wills onto him? How does the gamer experience the game? Do the rules of logic apply in the game world? How is space created and distributed in Hyrule (the fictional land in which the game takes place)? How does time function? Is Zelda art? Can Hyrule be seen as an ideal society? Can the game be enjoyable without winning? The Legend of Zelda and Philosophy not only appeals to Zelda fans and philosophers but also puts video games on the philosophical map as a serious area of study.",
+    "publisher": "Open Court",
+    "year": "2008",
+    "pages": "296",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9780812696912",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 47,
+    "title": "Assassin's Creed: Uprising",
+    "author": "Alex Paknadel, Dan Watters",
+    "genre": "Comics & Graphic Novels",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=ZrM8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "“The pace never lest up from the start.” – Nerdly With a world-ending threat on the horizon, our modern day Assassins head into the past on the trail of a powerful artefact that could change the course of history. But with deception around every corner and the notorious Black Cross pulling the strings, will they find it before the enemy does? From Paknadel, Watters, Holder and Lesko comes this second thrilling chapter in the ongoing Assassin’s Creed saga! Collects Assassin’s Creed: Uprising #5-8",
+    "publisher": "Titan Comics",
+    "year": "2018",
+    "pages": "114",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781785863899",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 48,
+    "title": "The World of Final Fantasy VII",
+    "author": "Jason C. Cash, Craig T. Olsen",
+    "genre": "Games & Activities",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=H8qrEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "Final Fantasy VII altered the course of video game history when it was released in 1997 on Sony's PlayStation system. It converted the Japanese role-playing game into an international gaming standard with enhanced gameplay, spectacular cutscenes and a vast narrative involving an iconic cast. In the decades after its release, the Final Fantasy VII franchise has grown to encompass a number of video game sequels, prequels, a feature-length film, a novel and a multi-volume remake series. This volume, the first edited collection of essays devoted only to the world of Final Fantasy VII, blends scholarly rigor with fan passion in order to identify the elements that keep Final Fantasy VII current and exciting for players. Some essays specifically address the game's perennially relevant themes and scenarios, ranging from environmental consciousness to economic inequity and posthumanism. Others examine the mechanisms used to immerse the player or to improve the narrative. Finally, there are several essays devoted specifically to the game's legacy, from its influence on later games to its characters' many crossovers and cameos.",
+    "publisher": "McFarland",
+    "year": "2023",
+    "pages": "238",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781476681863",
+      "dimensoes": "Check Publisher Website",
+      "formato": "Hardcover/Paperback",
+      "peso": "N/A"
+    }
+  },
+  {
+    "id": 49,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "genre": "Fiction",
+    "rating": 0,
+    "cover": "http://books.google.com/books/content?id=1f36CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "description": "Journey through Inferno, Purgatorio, and Paradiso in this stunning gift edition of Dante's epic poems. The next elegant edition in the Knickerbocker Classic series, The Divine Comedy is unabridged and complete, and comprised of all three sections of this epic trilogy by Dante Alighieri: Inferno, Purgatorio, and Paradiso. For Dante fans worldwide, this stunning gift edition has a cloth binding, ribbon marker, and is packaged neatly in an elegant slipcase. Featuring a new introduction, the classic translation by the poet Henry Wadsworth Longfellow (1807-1882), and over one hundred engravings by Gustave Dore, this volume of The Divine Comedy is an indispensable classic for every home library.",
+    "publisher": "Race Point Publishing",
+    "year": "2015",
+    "pages": "738",
+    "language": "en",
+    "especificacoes": {
+      "isbn": "9781631061561",
       "dimensoes": "Check Publisher Website",
       "formato": "Hardcover/Paperback",
       "peso": "N/A"

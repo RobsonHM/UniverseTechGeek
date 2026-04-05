@@ -56,8 +56,10 @@ def main():
         data = [] # If file is empty, start with a list
 
     # 2. Books you want to add
-    new_book_titles = ["The Hobbit", "1984", "Atomic Habits"]
-
+    #new_book_titles = ["The Hobbit", "1984", "Atomic Habits"]
+    new_book_titles =[
+        "divine comedy"
+    ]
     # 3. Get next ID
     next_id = data[-1]["id"] + 1 if data else 1
 

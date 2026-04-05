@@ -93,11 +93,11 @@ def main():
     existing_series = {s['title'].lower() for s in data['series']}
 
     # 3. Define titles to add (Specific + 2 Random each)
-    target_movies = ["Oppenheimer", "Poor Things", "Dune"]
-    target_series = ["The White Lotus", "Shogun"]
+    target_movies = []
+    target_series = []
     
     # Add randoms to the list
-    for _ in range(20):
+    for _ in range(2):
         target_movies.append(get_random_title("movie"))
         target_series.append(get_random_title("tv"))
 
