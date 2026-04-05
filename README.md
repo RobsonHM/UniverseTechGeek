@@ -58,7 +58,9 @@ UniverseTechGeek is a web application designed to help users discover, review, a
 	```bash
 	python app.py
 	```
-4. Access the app at `http://localhost:5000` (or as configured).
+4. Access the app at `http://localhost:5000` (if running with `python app.py`).
+   
+	If you are using Docker Compose, access the API at `http://localhost:5001`.
 
 ### Docker Setup
 1. Build and run with Docker Compose:
