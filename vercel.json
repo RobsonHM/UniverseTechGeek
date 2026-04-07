@@ -1,7 +1,13 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/home.html" },
-    { "source": "/(.*)", "destination": "/pages/$1.html" }
+    { 
+      "source": "/", 
+      "destination": "/home.html" 
+    },
+    { 
+      "source": "/((?!assets|JS|api|database).*)", 
+      "destination": "/pages/$1.html" 
+    }
   ]
 }
